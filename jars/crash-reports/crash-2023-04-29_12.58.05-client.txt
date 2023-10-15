@@ -1,0 +1,90 @@
+---- Minecraft Crash Report ----
+// Would you like a cupcake?
+
+Time: 29.04.23 12:58
+Description: Unexpected error
+
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at net.augustus.modules.render.ArrayList.renderArrayList(ArrayList.java:66)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:44)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1348)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:907)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:352)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at net.augustus.modules.render.ArrayList.renderArrayList(ArrayList.java:66)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:44)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 2 total; [EntityPlayerSP['4tbv6398g7n3'/83602, l='MpServer', x=65,55, y=61,00, z=55,22], EntityOtherPlayerMP['MuZzlll'/83599, l='MpServer', x=20,35, y=60,27, z=86,32]]
+	Chunk stats: MultiplayerChunkCache: 438, 438
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0,00,116,00,0,00 - World: (0,116,0), Chunk: (at 0,7,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 660696 game time, 24000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 47 total; [EntityArmorStand['Armor Stand'/83713, l='MpServer', x=64,50, y=58,00, z=0,50], EntityOtherPlayerMP['insane_10k'/83612, l='MpServer', x=0,50, y=110,00, z=0,50], EntityArmorStand['§r§bDiamond §l'/83715, l='MpServer', x=64,50, y=61,38, z=0,50], EntityOtherPlayerMP['Enderboy143533'/83613, l='MpServer', x=6,16, y=110,00, z=-5,27], EntityArmorStand['§e§lTier §r§f1'/83714, l='MpServer', x=64,50, y=61,69, z=0,50], EntityArmorStand['Armor Stand'/83717, l='MpServer', x=64,50, y=62,00, z=0,50], EntityItem['item.item.ingotIron'/83973, l='MpServer', x=101,50, y=54,50, z=34,50], EntityArmorStand['§eSpawns in §f23 §eseconds'/83716, l='MpServer', x=64,50, y=61,09, z=0,50], EntityArmorStand['§e§lUpgrades'/83659, l='MpServer', x=96,50, y=56,38, z=40,50], EntityVillager['Villager'/83658, l='MpServer', x=96,50, y=55,00, z=40,50], EntityArmorStand['§fClick to view'/83660, l='MpServer', x=96,50, y=56,09, z=40,50], EntityItem['item.item.ingotIron'/83980, l='MpServer', x=101,50, y=54,50, z=34,50], EntityOtherPlayerMP['MuZzlll'/83599, l='MpServer', x=20,35, y=60,27, z=86,32], EntityItem['item.item.ingotIron'/83925, l='MpServer', x=101,50, y=54,50, z=34,50], EntityOtherPlayerMP['urfavsnowyy'/83598, l='MpServer', x=37,08, y=55,36, z=79,06], EntityItem['item.item.ingotIron'/83924, l='MpServer', x=101,50, y=54,50, z=34,50], EntityItem['item.item.ingotIron'/83990, l='MpServer', x=101,50, y=54,50, z=34,50], EntityItem['item.item.ingotIron'/83996, l='MpServer', x=101,50, y=54,50, z=34,50], EntityArmorStand['Armor Stand'/83615, l='MpServer', x=96,00, y=55,00, z=34,00], EntityItem['item.item.ingotIron'/84005, l='MpServer', x=101,50, y=54,50, z=34,50], EntityArmorStand['Armor Stand'/83684, l='MpServer', x=101,50, y=55,00, z=34,50], EntityOtherPlayerMP['urfavsnowyy'/83598, l='MpServer', x=35,34, y=55,00, z=87,47], EntityItem['item.item.ingotIron'/83940, l='MpServer', x=101,50, y=54,50, z=34,50], EntityItem['item.item.ingotGold'/83881, l='MpServer', x=85,41, y=55,00, z=29,75], EntityVillager['Villager'/83631, l='MpServer', x=96,50, y=55,00, z=28,50], EntityOtherPlayerMP['MuZzlll'/83599, l='MpServer', x=34,45, y=55,00, z=96,64], EntityArmorStand['§fClick to view'/83633, l='MpServer', x=96,50, y=55,03, z=28,50], EntityOtherPlayerMP['urfavsnowyy'/83598, l='MpServer', x=34,50, y=55,00, z=99,56], EntityArmorStand['§e§lShop'/83632, l='MpServer', x=96,50, y=55,28, z=28,50], EntityItem['item.item.ingotIron'/83952, l='MpServer', x=101,50, y=54,50, z=34,50], EntityPlayerSP['4tbv6398g7n3'/83602, l='MpServer', x=65,55, y=61,00, z=55,22], EntityOtherPlayerMP['hazemhdhd'/83597, l='MpServer', x=-3,34, y=109,91, z=-11,72], EntityItem['item.item.ingotIron'/83954, l='MpServer', x=101,50, y=54,50, z=34,50], EntityOtherPlayerMP['IQ212'/83596, l='MpServer', x=-11,72, y=110,00, z=-2,25], EntityOtherPlayerMP['I_LikeChips'/83603, l='MpServer', x=-4,16, y=110,35, z=-4,31], EntityOtherPlayerMP['MuZzlll'/83599, l='MpServer', x=20,35, y=60,27, z=86,32], EntityOtherPlayerMP['b6h456h5'/83601, l='MpServer', x=88,40, y=60,52, z=-22,51], EntityOtherPlayerMP['V1SUXD'/83600, l='MpServer', x=7,34, y=110,00, z=-4,72], EntityOtherPlayerMP['DEDPOOL_gamer'/83606, l='MpServer', x=8,13, y=110,00, z=4,00], EntityOtherPlayerMP['iKinkysal'/83607, l='MpServer', x=-4,65, y=110,42, z=-7,81], EntityOtherPlayerMP['EpicOmar_'/83604, l='MpServer', x=0,47, y=110,00, z=-11,72], EntityOtherPlayerMP['Ron_sensei'/83605, l='MpServer', x=-1,63, y=110,00, z=-2,56], EntityOtherPlayerMP['stromysoul'/83610, l='MpServer', x=0,50, y=110,00, z=0,50], EntityOtherPlayerMP['Akshanshdewangan'/83611, l='MpServer', x=0,47, y=110,00, z=-1,19], EntityOtherPlayerMP['chinmaya_8011'/83608, l='MpServer', x=7,11, y=110,41, z=-4,55], EntityItem['item.item.ingotGold'/83967, l='MpServer', x=101,50, y=54,50, z=34,50], EntityOtherPlayerMP['ChickNova'/83609, l='MpServer', x=1,08, y=110,00, z=-4,85]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2189)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:369)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.2.9-arch1-1
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+	Java Version: 1.8.0_362, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 885704976 bytes (844 MB) / 1552941056 bytes (1481 MB) up to 3592421376 bytes (3426 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 3, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.0.1, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 7
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.0.1
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

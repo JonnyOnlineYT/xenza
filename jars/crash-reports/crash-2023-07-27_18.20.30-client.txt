@@ -1,0 +1,70 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 27.07.23 18:20
+Description: Initializing game
+
+java.lang.NullPointerException: Initializing game
+	at net.augustus.modules.combat.KillAura.<init>(KillAura.java:148)
+	at net.augustus.modules.ModuleManager.<init>(ModuleManager.java:49)
+	at net.augustus.Augustus.start(Augustus.java:80)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:487)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:334)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.augustus.modules.combat.KillAura.<init>(KillAura.java:148)
+	at net.augustus.modules.ModuleManager.<init>(ModuleManager.java:49)
+	at net.augustus.Augustus.start(Augustus.java:80)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:487)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.run(Minecraft.java:334)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.1.11-amd64-desktop-hwe
+	CPU: <unknown>
+	Java Version: 1.8.0_382, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 4959794168 bytes (4730 MB) / 6174015488 bytes (5888 MB) up to 6174015488 bytes (5888 MB)
+	JVM Flags: 3 total; -Xmx6G -Xms6G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 21.3.8, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 5
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 21.3.8
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

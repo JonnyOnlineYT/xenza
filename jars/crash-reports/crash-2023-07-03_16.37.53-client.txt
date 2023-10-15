@@ -1,0 +1,86 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 03.07.23 16:37
+Description: Unexpected error
+
+java.lang.ArithmeticException: / by zero
+	at net.augustus.modules.combat.KillAura.onEnable(KillAura.java:176)
+	at net.augustus.modules.Module.toggle(Module.java:79)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1536)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:871)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:348)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.augustus.modules.combat.KillAura.onEnable(KillAura.java:176)
+	at net.augustus.modules.Module.toggle(Module.java:79)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 5 total; [EntityPlayerSP['JonnyOnlineYT'/3805, l='MpServer', x=-42,48, y=75,00, z=22,70], EntityOtherPlayerMP['KLauncher_neuppx'/3804, l='MpServer', x=-49,41, y=75,00, z=-2,47], EntityOtherPlayerMP['untitleds'/3803, l='MpServer', x=-42,53, y=75,00, z=-27,31], EntityOtherPlayerMP['Daniil255pro'/3806, l='MpServer', x=-27,72, y=75,00, z=43,28], EntityOtherPlayerMP['desp1d_'/3807, l='MpServer', x=-2,31, y=75,00, z=50,69]]
+	Chunk stats: MultiplayerChunkCache: 120, 120
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: -43,00,75,00,-28,00 - World: (-43,75,-28), Chunk: (at 5,4,4 in -3,-2; contains blocks -48,0,-32 to -33,255,-17), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 28790182 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 9 total; [EntityOtherPlayerMP['untitleds'/3803, l='MpServer', x=-42,53, y=75,00, z=-27,31], EntityOtherPlayerMP['Daniil255pro'/3806, l='MpServer', x=-27,72, y=75,00, z=43,28], EntityOtherPlayerMP['desp1d_'/3807, l='MpServer', x=-2,31, y=75,00, z=50,69], EntityOtherPlayerMP['untitleds'/3803, l='MpServer', x=-42,53, y=75,00, z=-27,31], EntityOtherPlayerMP['KLauncher_neuppx'/3804, l='MpServer', x=-49,41, y=75,00, z=-2,47], EntityPlayerSP['JonnyOnlineYT'/3805, l='MpServer', x=-42,48, y=75,00, z=22,70], EntityOtherPlayerMP['Daniil255pro'/3806, l='MpServer', x=-27,72, y=75,00, z=43,28], EntityOtherPlayerMP['KLauncher_neuppx'/3804, l='MpServer', x=-49,41, y=75,00, z=-2,47], EntityOtherPlayerMP['desp1d_'/3807, l='MpServer', x=-2,31, y=75,00, z=50,69]]
+	Retry entities: 0 total; []
+	Server brand: CheatBungee <- Spigot
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2170)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_372, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 5459764976 bytes (5206 MB) / 6174015488 bytes (5888 MB) up to 6174015488 bytes (5888 MB)
+	JVM Flags: 3 total; -Xmx6G -Xms6G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics 620 GL version 4.6.0 - Build 31.0.101.2111, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 5
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 31.0.101.2111
+	OpenGlRenderer: Intel(R) UHD Graphics 620
+	OpenGlVendor: Intel
+	CpuCount: 8

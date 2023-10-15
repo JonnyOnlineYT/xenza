@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 10.09.23 00:56
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at net.augustus.utils.skid.wurst.EntityFakePlayer.<init>(EntityFakePlayer.java:21)
+	at net.augustus.modules.movement.Blink.onEnable(Blink.java:42)
+	at net.augustus.modules.Module.toggle(Module.java:82)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1533)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:868)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:347)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.augustus.utils.skid.wurst.EntityFakePlayer.<init>(EntityFakePlayer.java:21)
+	at net.augustus.modules.movement.Blink.onEnable(Blink.java:42)
+	at net.augustus.modules.Module.toggle(Module.java:82)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 5 total; [EntityPlayerSP['JonnyOnlineYT'/11480316, l='MpServer', x=61,12, y=39,00, z=92,87], EntityOtherPlayerMP['TD_Bear'/9988535, l='MpServer', x=45,78, y=39,00, z=71,06], EntityOtherPlayerMP['Karollinski'/11474057, l='MpServer', x=52,59, y=39,00, z=73,00], EntityOtherPlayerMP['Mxshary'/11345684, l='MpServer', x=93,51, y=42,16, z=102,42], EntityFakePlayer['JonnyOnlineYT'/17, l='MpServer', x=61,12, y=39,00, z=92,87]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 196,00,41,00,105,00 - World: (196,41,105), Chunk: (at 4,2,9 in 12,6; contains blocks 192,0,96 to 207,255,111), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 619099099 game time, 24000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 19 total; [EntityArmorStand['Killaura-Switch-5'/0, l='MpServer', x=109,53, y=43,78, z=146,31], EntityArmorStand['Killaura-Switch-1'/1, l='MpServer', x=106,41, y=43,78, z=149,50], EntityPlayerSP['JonnyOnlineYT'/11480316, l='MpServer', x=61,12, y=39,00, z=92,87], EntityArmorStand['Killaura-Switch-4'/2, l='MpServer', x=109,50, y=43,78, z=152,56], EntityArmorStand['Killaura-Switch-3'/3, l='MpServer', x=112,47, y=43,78, z=149,50], EntityOtherPlayerMP['TD_Bear'/9988535, l='MpServer', x=45,78, y=39,00, z=71,06], EntityOtherPlayerMP['Karollinski'/11474057, l='MpServer', x=52,59, y=39,00, z=73,00], EntityOtherPlayerMP['Karollinski'/11474057, l='MpServer', x=52,59, y=39,00, z=73,00], EntityOtherPlayerMP['Mxshary'/11345684, l='MpServer', x=93,51, y=42,16, z=102,42], EntityArmorStand['§cCivBreak'/9, l='MpServer', x=82,94, y=43,59, z=115,69], EntityArmorStand['§cMore Killaura Stuff'/10, l='MpServer', x=105,31, y=43,59, z=139,84], EntityOtherPlayerMP['TD_Bear'/9988535, l='MpServer', x=45,78, y=39,00, z=71,06], EntityFakePlayer['JonnyOnlineYT'/17, l='MpServer', x=61,12, y=39,00, z=92,87], EntityArmorStand['§cBreaker'/18, l='MpServer', x=84,59, y=43,63, z=148,09], EntityArmorStand['§cChests'/19, l='MpServer', x=83,66, y=43,63, z=132,31], EntityArmorStand['§cScaffold'/20, l='MpServer', x=69,56, y=43,63, z=104,00], EntityArmorStand['§cSpeed Test'/21, l='MpServer', x=117,34, y=44,09, z=102,41], EntityArmorStand['§cFall'/23, l='MpServer', x=124,38, y=44,72, z=110,94], EntityOtherPlayerMP['Mxshary'/11345684, l='MpServer', x=93,51, y=42,16, z=102,42]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2167)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:364)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.4.12-zen1-1-zen
+	CPU: <unknown>
+	Java Version: 1.8.0_382, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 7534140336 bytes (7185 MB) / 8232370176 bytes (7851 MB) up to 8232370176 bytes (7851 MB)
+	JVM Flags: 3 total; -Xmx8G -Xms8G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 6
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

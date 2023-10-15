@@ -1,0 +1,2225 @@
+[21:26:46] [Client thread/INFO]: Setting user: Player243
+[21:26:46] [Client thread/INFO]: (Session ID is token:0:Player243)
+[21:26:47] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.ItemRecord.getRecordResource
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.preDrawBatch
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.drawBatch
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ISmartBlockModel
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[21:26:47] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.client.gui.GuiMainMenu.(type: class java.lang.String, index: 0)
+[21:26:47] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
+[21:26:47] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:26:48] [Client thread/INFO]: [OptiFine] 
+[21:26:48] [Client thread/INFO]: [OptiFine] OptiFine_1.8.8_HD_U_H8
+[21:26:48] [Client thread/INFO]: [OptiFine] Build: null
+[21:26:48] [Client thread/INFO]: [OptiFine] OS: Linux (amd64) version 6.5.3-zen1-1-zen
+[21:26:48] [Client thread/INFO]: [OptiFine] Java: 1.8.0_382, Amazon.com Inc.
+[21:26:48] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+[21:26:48] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[21:26:48] [Client thread/INFO]: [OptiFine] OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2), version 4.6 (Compatibility Profile) Mesa 23.1.7-arch1.1, Intel
+[21:26:48] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[21:26:48] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[21:26:48] [Thread-4/INFO]: [OptiFine] Checking for new version
+[21:26:48] [Client thread/INFO]: [Shaders] ShadersMod version: 2.4.12
+[21:26:48] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6 (Compatibility Profile) Mesa 23.1.7-arch1.1
+[21:26:48] [Client thread/INFO]: [Shaders] Vendor:  Intel
+[21:26:48] [Client thread/INFO]: [Shaders] Renderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+[21:26:48] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[21:26:48] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[21:26:48] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[21:26:48] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[21:26:48] [Client thread/INFO]: [Shaders] Load ShadersMod configuration.
+[21:26:48] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[21:26:48] [Client thread/INFO]: Reloading ResourceManager: Default, Koks Purple
+[21:26:48] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[21:26:48] [Client thread/INFO]: [OptiFine] Resource packs: Koks Purple
+[21:26:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:26:48] [Thread-4/INFO]: [OptiFine] Version found: I7
+[21:26:48] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[21:26:48] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:26:48] [Thread-5/INFO]: OpenAL initialized.
+[21:26:49] [Sound Library Loader/INFO]: Sound engine started
+[21:26:50] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[21:26:50] [Client thread/INFO]: [OptiFine] Multitexture: false
+[21:26:51] [Client thread/INFO]: Created: 4096x4096 textures-atlas
+[21:26:55] [Via-Mappingloader-0/INFO]: Loading 1.12 -> 1.13 mappings...
+[21:26:55] [Via-Mappingloader-1/INFO]: Loading 1.13 -> 1.13.2 mappings...
+[21:26:55] [Via-Mappingloader-2/INFO]: Loading 1.13.2 -> 1.14 mappings...
+[21:26:55] [Via-Mappingloader-3/INFO]: Loading 1.14 -> 1.15 mappings...
+[21:26:55] [Via-Mappingloader-4/INFO]: Loading 1.15 -> 1.16 mappings...
+[21:26:55] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[21:26:55] [Via-Mappingloader-2/INFO]: Loading 1.16 -> 1.16.2 mappings...
+[21:26:55] [Via-Mappingloader-4/INFO]: Loading 1.16.2 -> 1.17 mappings...
+[21:26:55] [Via-Mappingloader-3/INFO]: Loading 1.17 -> 1.18 mappings...
+[21:26:55] [Via-Mappingloader-2/INFO]: Loading 1.18 -> 1.19 mappings...
+[21:26:55] [Client thread/INFO]: Loading translations...
+[21:26:55] [Via-Mappingloader-0/INFO]: Loading 1.10 -> 1.9.4 mappings...
+[21:26:55] [Via-Mappingloader-0/INFO]: Loading 1.11 -> 1.10 mappings...
+[21:26:55] [Via-Mappingloader-0/INFO]: Loading 1.12 -> 1.11 mappings...
+[21:26:55] [Via-Mappingloader-0/INFO]: Loading 1.13 -> 1.12 mappings...
+[21:26:55] [Via-Mappingloader-2/INFO]: Loading 1.13.2 -> 1.13 mappings...
+[21:26:55] [Via-Mappingloader-2/INFO]: Loading 1.14 -> 1.13.2 mappings...
+[21:26:56] [Via-Mappingloader-0/INFO]: Loading 1.15 -> 1.14 mappings...
+[21:26:56] [Via-Mappingloader-0/INFO]: Loading 1.16 -> 1.15 mappings...
+[21:26:56] [Via-Mappingloader-2/INFO]: Loading 1.16.2 -> 1.16 mappings...
+[21:26:56] [Via-Mappingloader-0/INFO]: Loading 1.17 -> 1.16.2 mappings...
+[21:26:56] [Via-Mappingloader-0/INFO]: Loading 1.18 -> 1.17 mappings...
+[21:26:56] [Via-Mappingloader-0/INFO]: Loading 1.19 -> 1.18 mappings...
+[21:26:56] [ViaMCP-0/WARN]: There is a newer plugin version available: 4.8.1, you're on: 4.1.1
+[21:26:56] [ViaMCP-0/INFO]: ViaVersion detected server version: 1.8.x (47)
+[21:26:56] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:26:56] [Client thread/ERROR]: @ Pre render
+[21:26:56] [Client thread/ERROR]: 1282: Invalid operation
+[21:26:56] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[21:26:56] [ViaMCP-0/WARN]: This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[21:26:56] [ViaMCP-0/WARN]: You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_382). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[21:26:56] [ViaMCP-0/INFO]: Finished mapping loading, shutting down loader executor!
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/water.png
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/sky0.png
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/colormap/underwater.png
+[21:26:56] [Client thread/WARN]: [OptiFine] CustomColors: Invalid dimension ID: 0old, path: mcpatcher/lightmap/world0old.png
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world-1.png
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world0.png
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomColors: Colormap mcpatcher/lightmap/world1.png
+[21:26:56] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky1.properties
+[21:26:57] [Client thread/INFO]: [OptiFine] CustomSky properties: mcpatcher/sky/world0/sky2.properties
+[21:26:57] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[21:27:04] [Client thread/ERROR]: Can't ping mc.skycave.pro: Disconnected
+[21:27:06] [Client thread/INFO]: Connecting to promo-bungee1.join-ml.com., 25630
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:07] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[21:27:10] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:12] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:14] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:16] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:18] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:20] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:22] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:22] [Client thread/ERROR]: Can't ping mc.skycave.pro: Disconnected
+[21:27:24] [Client thread/INFO]: Connecting to promo-bungee1.join-ml.com., 25630
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException: 257
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 257
+	at net.minecraft.world.chunk.Chunk.fillChunk(Chunk.java:1325) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleChunkData(NetHandlerPlayClient.java:631) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:48) ~[bin/:?]
+	at net.minecraft.network.play.server.S21PacketChunkData.processPacket(S21PacketChunkData.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:25] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:28] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:29] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:31] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:27:31] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:27:33] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:27:35] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:27:37] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:27:39] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:27:41] [Client thread/INFO]: [CHAT] Guard » Check completed successfully, enjoy your game! :)
+[21:27:41] [Client thread/INFO]: [CHAT] Authorization » Register - /reg [password] [repeat password]
+[21:27:44] [Client thread/INFO]: [CHAT] Authorization » Register - /reg [password] [repeat password]
+[21:27:46] [Client thread/INFO]: [CHAT] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[21:27:46] [Client thread/INFO]: [CHAT] Authorization » You have successfully registered.
+[21:27:48] [Client thread/INFO]: [CHAT] 
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT]  
+[21:27:48] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+     Welcome to Mineland Network
+
+ ❖ Have fun with our unique Servers! - /servers
+ ❖ Feeling alone? Invite your Friends! - /party
+ ❖ Treat yourself with Luxury! - /ranks
+ ❖ Find us out in more Platforms! - /site
+ 
+ [Facebook] - [Discord] - [Forum]
+-----------------------------------------------------
+[21:27:49] [Client thread/INFO]: [CHAT] System » Your language set to English.
+ You can change it in settings - /lang
+[21:27:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.world.World.isValid(World.java:242) ~[bin/:?]
+	at net.minecraft.world.World.getBlockState(World.java:852) ~[bin/:?]
+	at net.minecraft.entity.player.EntityPlayer.wakeUpPlayer(EntityPlayer.java:1209) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleAnimation(NetHandlerPlayClient.java:726) ~[bin/:?]
+	at net.minecraft.network.play.server.S0BPacketAnimation.processPacket(S0BPacketAnimation.java:34) ~[bin/:?]
+	at net.minecraft.network.play.server.S0BPacketAnimation.processPacket(S0BPacketAnimation.java:9) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:27:58] [Client thread/INFO]: [CHAT] §6[§9xenza§6] §7Your name: §cjYA3i7dw1nr
+[21:28:04] [Client thread/INFO]: [CHAT] Party » Invitation:
+Xeneza invites you to party!
+[21:28:04] [Client thread/INFO]: [CHAT]  
+[21:28:04] [Client thread/INFO]: [CHAT]           [Accept]          [Reject]
+[21:28:04] [Client thread/INFO]: [CHAT]  
+[21:28:09] [Client thread/INFO]: [CHAT] Party » The invitation was accepted.
+[21:28:24] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.world.World.isValid(World.java:242) ~[bin/:?]
+	at net.minecraft.world.World.getBlockState(World.java:852) ~[bin/:?]
+	at net.minecraft.entity.player.EntityPlayer.wakeUpPlayer(EntityPlayer.java:1209) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleAnimation(NetHandlerPlayClient.java:726) ~[bin/:?]
+	at net.minecraft.network.play.server.S0BPacketAnimation.processPacket(S0BPacketAnimation.java:34) ~[bin/:?]
+	at net.minecraft.network.play.server.S0BPacketAnimation.processPacket(S0BPacketAnimation.java:9) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:28:25] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:28:25] [Client thread/INFO]: [CHAT] sws-switch2 » Party Xeneza, jYA3i7dw1nr joined the game (4/8)
+[21:28:26] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:28:26] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:28:26] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:28:27] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:28:28] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:28:28] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:28:28] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:28:28] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:28:28] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:28:29] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:28:30] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:28:30] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:28:30] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:28:30] [Netty Epoll Client IO #1/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:29:27] [Client thread/INFO]: [CHAT] Game will start in 30 seconds
+[21:29:47] [Client thread/INFO]: [CHAT] Game will start in 10 seconds
+[21:29:52] [Client thread/INFO]: [CHAT] Game will start in 5 seconds
+[21:29:53] [Client thread/INFO]: [CHAT] Game will start in 4 seconds
+[21:29:54] [Client thread/INFO]: [CHAT] Game will start in 3 seconds
+[21:29:55] [Client thread/INFO]: [CHAT] Game will start in 2 seconds
+[21:29:56] [Client thread/INFO]: [CHAT] Game will start in 1 seconds
+[21:29:57] [Client thread/INFO]: [CHAT] gui, notify, verbose, kick, msg, npc, reload, addvl, debug
+[21:29:57] [Client thread/INFO]: [CHAT] gui, notify, verbose, kick, msg, npc, reload, addvl, debug
+[21:29:57] [Client thread/INFO]: [CHAT] gui, notify, verbose, kick, msg, npc, reload, addvl, debug
+[21:29:57] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:29:57] [Client thread/INFO]: [CHAT]   
+[21:29:57] [Client thread/INFO]: [CHAT]                           ＭＩＮＥＬＡＮＤ ＳＫＹＷＡＲＳ
+[21:29:57] [Client thread/INFO]: [CHAT]  
+[21:29:57] [Client thread/INFO]: [CHAT]          Game Goal: Kill all the opponents and stay alive.
+[21:29:57] [Client thread/INFO]: [CHAT]           Hint: Search for gear and items in the chests.
+[21:29:57] [Client thread/INFO]: [CHAT]                Attention: Cross teaming is forbidden!
+[21:29:57] [Client thread/INFO]: [CHAT]   
+[21:29:57] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:30:09] [Client thread/INFO]: [CHAT] System » Acquired SkyWars Case x 1.
+[21:30:09] [Client thread/INFO]: [CHAT]  Open it in Discoveries Altar.
+[21:30:15] [Client thread/INFO]: [CHAT] System » Acquired SkyWars Case x 1.
+[21:30:15] [Client thread/INFO]: [CHAT]  Open it in Discoveries Altar.
+[21:30:49] [Client thread/INFO]: [CHAT] Xeneza was slain by Imperator ARCLER
+[21:31:07] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:31:09] [Client thread/ERROR]: Can't ping mineblaze.ru: Timed out
+[21:31:09] [Client thread/ERROR]: Can't ping hylex.gg: Timed out
+[21:31:10] [Client thread/INFO]: Connecting to promo-bungee1.join-ml.com., 25600
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:11] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleScoreboardObjective(NetHandlerPlayClient.java:1534) ~[bin/:?]
+	at net.minecraft.network.play.server.S3BPacketScoreboardObjective.processPacket(S3BPacketScoreboardObjective.java:47) ~[bin/:?]
+	at net.minecraft.network.play.server.S3BPacketScoreboardObjective.processPacket(S3BPacketScoreboardObjective.java:10) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:31:16] [Client thread/INFO]: Connecting to promo-bungee1.join-ml.com., 25600
+[21:31:17] [Client thread/INFO]: Connecting to promo-bungee1.join-ml.com., 25600
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+[21:31:17] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:31:19] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:31:21] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:31:23] [Client thread/INFO]: [CHAT] Guard » Checking in progress, please wait...
+[21:31:24] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:31:25] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:31:27] [Client thread/INFO]: [CHAT] Guard » Enter the code from the image into the chat.
+[21:31:28] [Client thread/INFO]: [CHAT] Guard » Check completed successfully, enjoy your game! :)
+[21:31:29] [Client thread/INFO]: [CHAT] 
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT]  
+[21:31:29] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+     Welcome to Mineland Network
+
+ ❖ Have fun with our unique Servers! - /servers
+ ❖ Feeling alone? Invite your Friends! - /party
+ ❖ Treat yourself with Luxury! - /ranks
+ ❖ Find us out in more Platforms! - /site
+ 
+ [Facebook] - [Discord] - [Forum]
+-----------------------------------------------------
+[21:31:38] [Client thread/INFO]: [CHAT] Party » Invitation:
+Xeneza invites you to party!
+[21:31:38] [Client thread/INFO]: [CHAT]  
+[21:31:38] [Client thread/INFO]: [CHAT]           [Accept]          [Reject]
+[21:31:38] [Client thread/INFO]: [CHAT]  
+[21:31:46] [Client thread/INFO]: [CHAT] Party » The invitation was accepted.
+[21:32:28] [Client thread/INFO]: [CHAT]  
+[21:32:28] [Client thread/INFO]: [CHAT]  |  True HEROES play Mineland!
+[21:32:28] [Client thread/INFO]: [CHAT]  |   
+[21:32:28] [Client thread/INFO]: [CHAT]  | ● The [HERO] rank is still a dream for many...
+[21:32:28] [Client thread/INFO]: [CHAT]  | ● Why's that? The opportunities and benefits
+[21:32:28] [Client thread/INFO]: [CHAT]  | ● it's desired by many, but not everyone can be a Hero!
+[21:32:28] [Client thread/INFO]: [CHAT]  |   
+[21:32:28] [Client thread/INFO]: [CHAT]  | ➜ You can, however! Make dreams come true - mineland.net
+[21:32:28] [Client thread/INFO]: [CHAT]  
+[21:33:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:33:05] [Client thread/INFO]: [CHAT] bwd-switch2 » Party Xeneza, jYA3i7dw1nr joined the game (11/16)
+[21:33:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:33:06] [Client thread/INFO]: [CHAT] bwd-switch2 » Creeperboy23456 joined the game (12/16)
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:33:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:33:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:33:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:33:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:33:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:33:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:33:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:33:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:33:09] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:33:09] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:33:09] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:33:09] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:33:09] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:33:15] [Client thread/INFO]: [CHAT] bwd-switch2 » burchop joined the game (12/16)
+[21:33:18] [Client thread/INFO]: [CHAT] bwd-switch2 » Lele09 joined the game (13/16)
+[21:33:22] [Client thread/INFO]: [CHAT]  AlsnRss » Non vale autochliker.
+[21:33:26] [Client thread/INFO]: [CHAT] bwd-switch2 » artemrevenge169 joined the game (13/16)
+[21:33:34] [Client thread/INFO]: [CHAT] bwd-switch2 » smikalo joined the game (13/16)
+[21:33:43] [Client thread/INFO]: [CHAT] bwd-switch2 » smikalo joined the game (13/16)
+[21:33:47] [Client thread/INFO]: [CHAT] bwd-switch2 » artemrevenge169 joined the game (14/16)
+[21:33:54] [Client thread/INFO]: [CHAT] bwd-switch2 » alizb_12478680 joined the game (15/16)
+[21:33:56] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:33:56] [Client thread/INFO]: [CHAT]                          ＭＩＮＥＬＡＮＤ ＢＥＤＷＡＲＳ
+[21:33:56] [Client thread/INFO]: [CHAT]  
+[21:33:56] [Client thread/INFO]: [CHAT]      Game Goal: Break opponent's bed and protect your's.
+[21:33:56] [Client thread/INFO]: [CHAT]      Hint: Collect resources and buy things from villager.
+[21:33:56] [Client thread/INFO]: [CHAT]               Attention: Cross teaming is forbidden!
+[21:33:56] [Client thread/INFO]: [CHAT]   
+[21:33:56] [Client thread/INFO]: [CHAT] ❖━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❖
+[21:33:56] [Client thread/INFO]: [CHAT] If you disconnected use /rejoin to join back the game!
+[21:33:56] [Client thread/INFO]: [CHAT]  
+[21:33:56] [Client thread/INFO]: [CHAT] Phase I: Evolution
+[21:33:56] [Client thread/INFO]: [CHAT]  On this phase you need to collect ingots and build bridges to the middle. Don't forget to cover the bed!
+[21:34:10] [Client thread/INFO]: [CHAT] ⚑ jYA3i7dw1nr fell into the abyss
+[21:34:12] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:34:19] [Client thread/INFO]: [CHAT]  
+[21:34:19] [Client thread/INFO]: [CHAT] Phase II: Rush
+[21:34:19] [Client thread/INFO]: [CHAT]  Someone's bed was destroyed! Or this is about a time it might. Gear up and rush another teams!
+[21:34:24] [Client thread/INFO]: [CHAT] ⚑ kaua2009313 fell into the abyss
+[21:34:24] [Client thread/INFO]: [CHAT] ⚑ Lele09 fell into the abyss
+[21:34:25] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:34:28] [Client thread/INFO]: [CHAT] ⚑ burchop was slain by ⚑ jYA3i7dw1nr
+[21:34:31] [Client thread/INFO]: [CHAT] ⚑ smikalo fell into the abyss
+[21:34:32] [Client thread/INFO]: [CHAT]  
+[21:34:32] [Client thread/INFO]: [CHAT]  |    SECURITY IS PARAMOUNT     
+[21:34:32] [Client thread/INFO]: [CHAT]  |  Want to secure your account?
+[21:34:32] [Client thread/INFO]: [CHAT]  |  Worried you'll get hacked and your game will be... over?!
+[21:34:32] [Client thread/INFO]: [CHAT]  |   
+[21:34:32] [Client thread/INFO]: [CHAT]  | ➜ Then link your email to your account - /email
+[21:34:32] [Client thread/INFO]: [CHAT]  
+[21:34:35] [Client thread/INFO]: [CHAT] Yassinoo21 tried to escape but was killed while trying to by ⚑ jYA3i7dw1nr
+[21:34:36] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:34:37] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:34:39] [Client thread/INFO]: [CHAT] ⚑ burchop was slain by ⚑ jYA3i7dw1nr
+[21:34:41] [Client thread/INFO]: [CHAT] ⚑ Lele09 was slain by ⚑ jYA3i7dw1nr
+[21:34:44] [Client thread/INFO]: [CHAT] 
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT]  
+[21:34:44] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+     Welcome to Mineland Network
+
+ ❖ Have fun with our unique Servers! - /servers
+ ❖ Feeling alone? Invite your Friends! - /party
+ ❖ Treat yourself with Luxury! - /ranks
+ ❖ Find us out in more Platforms! - /site
+ 
+ [Facebook] - [Discord] - [Forum]
+-----------------------------------------------------
+[21:34:47] [Client thread/INFO]: [CHAT]  
+ | [CHEATS DETECTED]
+ | You were kicked out of the mini-game!
+ | Blacklisted modifications are bannable.
+ | 
+ | False positive? - mineland.net/discord/en
+ | Don't forget to send a screenshot - F2
+ | 
+ | Wed Oct 11 22:34:47 MSK 2023
+ | bwd-switch2
+ | KillAura
+ 
+[21:34:49] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:34:49] [Client thread/INFO]: [CHAT] bwd-switch2 » jYA3i7dw1nr joined the game (5/16)
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -305
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -306
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 237, -303
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 216, -300
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 237, -304
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -294
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -295
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -296
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 238, -303
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 238, -302
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 238, -304
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 239, 219, -296
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 215, -303
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 217, -303
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 217, -300
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 215, -300
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 217, -300
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 215, -285
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 214, -286
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 219, -287
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 235, 215, -285
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 218, -284
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -285
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 235, 218, -284
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 218, -283
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 219, -285
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -312
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -313
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -314
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 215, -314
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 238, 239, -307
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -307
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -308
+[21:34:51] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -309
+[21:34:51] [Client thread/INFO]: [CHAT] Aboodkiler2 tried to escape but was killed while trying to by jYA3i7dw1nr
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:34:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:34:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:34:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:34:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:34:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:34:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:34:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:34:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:34:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:34:54] [Client thread/INFO]: [CHAT] ⚑ Xeneza hit the ground too hard whilst trying to escape ⚑ smikalo
+[21:34:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:34:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:34:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:34:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:34:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:35:07] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:35:08] [Client thread/INFO]: [CHAT] ⚑ AlsnRss fell into the abyss
+[21:35:20] [Client thread/INFO]: [CHAT] ⚑ smikalo was slain by ⚑ Xeneza
+[21:35:23] [Client thread/INFO]: [CHAT] ⚑ Kamran1797 fell into the abyss
+[21:35:32] [Client thread/INFO]: [CHAT] ⚑ Xeneza was slain by ⚑ smikalo
+[21:35:35] [Client thread/INFO]: [CHAT] ⚑ alizb_12478680 left with 9 ❤
+[21:35:35] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ alizb_12478680
+[21:35:37] [Client thread/INFO]: [CHAT] smikalo tried to escape but was killed while trying to by ⚑ Xeneza
+[21:35:46] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:35:53] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:35:55] [Client thread/INFO]: [CHAT] +1 Gold
+[21:35:55] [Client thread/INFO]: [CHAT] +100 Iron
+[21:35:55] [Client thread/INFO]: [CHAT] ⚑ alizb_12478680 was slain by jYA3i7dw1nr
+[21:35:59] [Client thread/INFO]: [CHAT] ⚑ Xeneza was slain by ⚑ Lele09
+[21:36:21] [Client thread/INFO]: [CHAT]  
+ | Imperator ARCLER released a new video!
+ | Click to view: [YouTube]
+ | Name: SkyWars Montage EREBOR
+ | Views: 1444
+ | Comments: naugladur
+
+[21:36:30] [Client thread/ERROR]: Item entity 2701449 has no item?!
+[21:36:30] [Client thread/ERROR]: Item entity 2701449 has no item?!
+[21:36:30] [Client thread/ERROR]: Item entity 2701449 has no item?!
+[21:36:30] [Client thread/ERROR]: Item entity 2701449 has no item?!
+[21:36:41] [Client thread/INFO]: [CHAT] ⚑ artemrevenge169 fell into the abyss
+[21:36:55] [Client thread/INFO]: [CHAT] ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+            CONGRATULATIONS!
+Viper_Yashraj just bought rank Skilled
+Congratulate them on the purchase!
+Want to be like them? ➜ mineland.net
+   
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+[21:36:59] [Client thread/ERROR]: Item entity 2701929 has no item?!
+[21:37:37] [Client thread/ERROR]: Item entity 2704907 has no item?!
+[21:37:52] [Client thread/INFO]: [CHAT]  
+[21:37:52] [Client thread/INFO]: [CHAT]  |  Eeey, you wanna become a YouTuber? Easy-peasy!
+[21:37:52] [Client thread/INFO]: [CHAT]  |   
+[21:37:52] [Client thread/INFO]: [CHAT]  | ● Recording your plays? Like streaming with friends?
+[21:37:52] [Client thread/INFO]: [CHAT]  | ● The [YouTube] rank is perfect for you!
+[21:37:52] [Client thread/INFO]: [CHAT]  | ● Soar through the hubs like a majestic bird and grow alongside us ;)
+[21:37:52] [Client thread/INFO]: [CHAT]  |   
+[21:37:52] [Client thread/INFO]: [CHAT]  | ➜ Become popular now - mineland.net
+[21:37:52] [Client thread/INFO]: [CHAT]  
+[21:38:07] [Client thread/ERROR]: Item entity 2706204 has no item?!
+[21:38:07] [Client thread/ERROR]: Item entity 2706204 has no item?!
+[21:38:07] [Client thread/ERROR]: Item entity 2706204 has no item?!
+[21:38:07] [Client thread/ERROR]: Item entity 2706204 has no item?!
+[21:38:13] [Client thread/ERROR]: Item entity 2706457 has no item?!
+[21:38:13] [Client thread/ERROR]: Item entity 2706457 has no item?!
+[21:38:13] [Client thread/ERROR]: Item entity 2706457 has no item?!
+[21:38:13] [Client thread/ERROR]: Item entity 2706457 has no item?!
+[21:38:17] [Client thread/INFO]: [CHAT] ⚑ Skilled eruceno was thrown out of the world by ⚑ Lele09
+[21:38:46] [Client thread/ERROR]: Item entity 2707121 has no item?!
+[21:38:56] [Client thread/INFO]: [CHAT] ⚑ Skilled eruceno was thrown out of the world by ⚑ Lele09
+[21:39:09] [Client thread/INFO]: [CHAT] System » Not enough money for this purchase.
+[21:39:09] [Client thread/INFO]: [CHAT] System » Not enough money for this purchase.
+[21:39:10] [Client thread/INFO]: [CHAT] System » Not enough money for this purchase.
+[21:39:44] [Client thread/INFO]: [CHAT] ⚑ Skilled eruceno was slain by ⚑ Lele09
+[21:39:48] [Client thread/ERROR]: Item entity 2710009 has no item?!
+[21:39:50] [Client thread/INFO]: [CHAT] jYA3i7dw1nr fell into the abyss
+[21:39:55] [Client thread/ERROR]: Item entity 2710575 has no item?!
+[21:39:55] [Client thread/ERROR]: Item entity 2710575 has no item?!
+[21:39:55] [Client thread/ERROR]: Item entity 2710575 has no item?!
+[21:39:55] [Client thread/ERROR]: Item entity 2710575 has no item?!
+[21:39:55] [Client thread/INFO]: [CHAT] ⚑ Skilled eruceno was slain by ⚑ Xeneza
+[21:39:59] [Client thread/ERROR]: Item entity 2711055 has no item?!
+[21:40:03] [Client thread/INFO]: [CHAT] ⚑ doubleu was thrown out of the world by ⚑ Lele09
+[21:40:03] [Client thread/INFO]: [CHAT] ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+            CONGRATULATIONS!
+f1stawka just bought rank Hero
+Congratulate them on the purchase!
+Want to be like them? ➜ mineland.net
+   
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+[21:40:10] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:40:12] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:40:14] [Client thread/INFO]: [CHAT] ⚑ Lele09 left with 8 ❤
+[21:40:14] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ Lele09
+[21:40:36] [Client thread/INFO]: [CHAT] jYA3i7dw1nr fell into the abyss
+[21:41:12] [Client thread/INFO]: [CHAT]  
+[21:41:12] [Client thread/INFO]: [CHAT]  |  Just starting your Mineland journey out?
+[21:41:12] [Client thread/INFO]: [CHAT]  |   
+[21:41:12] [Client thread/INFO]: [CHAT]  | ● Start with [GAMER] at a very tasty price.
+[21:41:12] [Client thread/INFO]: [CHAT]  | ● It will be enough to give you a ton of awesome features
+[21:41:12] [Client thread/INFO]: [CHAT]  | ● that make your game MU-U-UCH more exciting.
+[21:41:12] [Client thread/INFO]: [CHAT]  |   
+[21:41:12] [Client thread/INFO]: [CHAT]  | ➜ Join our family - mineland.net
+[21:41:12] [Client thread/INFO]: [CHAT]  
+[21:41:26] [Client thread/ERROR]: Item entity 2715763 has no item?!
+[21:41:43] [Client thread/INFO]: [CHAT] BedWars » ⚑ Xeneza bought team upgrade Sharpness
+[21:41:50] [Client thread/INFO]: [CHAT] Phase III: Last chance
+[21:41:50] [Client thread/INFO]: [CHAT]  Look out! Now all the players have compasses leading to the nearest enemy.
+[21:42:12] [Client thread/INFO]: [CHAT] ⚑ Lele09 left with 20 ❤
+[21:42:12] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was thrown out of the world by ⚑ Lele09
+[21:42:23] [Client thread/INFO]: [CHAT] jYA3i7dw1nr fell into the abyss
+[21:42:28] [Client thread/INFO]: [CHAT] ⚑ Xeneza was thrown out of the world by ⚑ Lele09
+[21:42:34] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:42:37] [Client thread/INFO]: [CHAT] +20 Gold
+[21:42:37] [Client thread/INFO]: [CHAT] +68 Iron
+[21:42:37] [Client thread/INFO]: [CHAT] +1 Emerald
+[21:42:37] [Client thread/INFO]: [CHAT] ⚑ Lele09 was slain by jYA3i7dw1nr
+[21:42:40] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:42:47] [Client thread/INFO]: [CHAT] ⚑ Lele09 left with 20 ❤
+[21:42:47] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was thrown out of the world by ⚑ Lele09
+[21:42:59] [Client thread/INFO]: [CHAT] ⚑ Lele09 was slain by ⚑ Xeneza
+[21:43:02] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:43:04] [Client thread/INFO]: [CHAT] bwd-switch2 » Party Xeneza, jYA3i7dw1nr joined the game (2/16)
+[21:43:04] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:43:04] [Client thread/INFO]: [CHAT] bwd-switch2 » Lele09 joined the game (3/16)
+[21:43:04] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:43:04] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:43:05] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:43:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:43:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:43:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:43:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:43:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:43:06] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:43:07] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:43:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:43:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:43:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:43:08] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:43:51] [Client thread/INFO]: [CHAT] bwd-switch2 » gagg joined the game (3/16)
+[21:43:56] [Client thread/INFO]: [CHAT] bwd-switch2 » 77Fxnn joined the game (3/16)
+[21:43:59] [Client thread/INFO]: [CHAT] bwd-switch2 » Geelik joined the game (4/16)
+[21:44:20] [Client thread/INFO]: [CHAT] bwd-switch2 » Samir15 joined the game (5/16)
+[21:44:23] [Client thread/INFO]: [CHAT] ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+            CONGRATULATIONS!
+AstroGen just bought suffix Okay
+Congratulate them on the purchase!
+Want to be like them? ➜ mineland.net
+   
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+[21:44:29] [Client thread/INFO]: [CHAT] bwd-switch2 » Mors joined the game (5/16)
+[21:44:32] [Client thread/INFO]: [CHAT] bwd-switch2 » kokobobo joined the game (6/16)
+[21:44:32] [Client thread/INFO]: [CHAT]  
+[21:44:32] [Client thread/INFO]: [CHAT]  |    CHEATER? NEVER HEARD OF 'ER     
+[21:44:32] [Client thread/INFO]: [CHAT]  |  So you're playing, and then...! A CHEATER, TWO, THREE...
+[21:44:32] [Client thread/INFO]: [CHAT]  |   
+[21:44:32] [Client thread/INFO]: [CHAT]  | ● What to do? Call the police - the moderators ;)
+[21:44:32] [Client thread/INFO]: [CHAT]  | ● The quicker you report, the faster they'll come.
+[21:44:32] [Client thread/INFO]: [CHAT]  | ● Your report will be reviewed in real time!
+[21:44:32] [Client thread/INFO]: [CHAT]  |   
+[21:44:32] [Client thread/INFO]: [CHAT]  | ➜ Just don't panic - /report NICKNAME
+[21:44:32] [Client thread/INFO]: [CHAT]  
+[21:44:56] [Client thread/INFO]: [CHAT] bwd-switch2 » bluepenguin5071 joined the game (6/16)
+[21:44:58] [Client thread/INFO]: [CHAT] bwd-switch2 » Black_cat5716 joined the game (6/16)
+[21:45:58] [Client thread/INFO]: [CHAT] bwd-switch2 » wertloz joined the game (7/16)
+[21:46:13] [Client thread/INFO]: [CHAT] bwd-switch2 » Hero KeHToXa1337 joined the game (8/16)
+[21:46:21] [Client thread/INFO]: [CHAT] bwd-switch2 » Party Imperator ARCLER, ✝死んだマウス MinervaKirei joined the game (10/16)
+[21:46:22] [Client thread/INFO]: [CHAT] bwd-switch2 » Mr_jerk joined the game (11/16)
+[21:46:35] [Client thread/INFO]: [CHAT] bwd-switch2 » _SaifPlayz joined the game (10/16)
+[21:46:38] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:46:38] [Client thread/INFO]: [CHAT]                          ＭＩＮＥＬＡＮＤ ＢＥＤＷＡＲＳ
+[21:46:38] [Client thread/INFO]: [CHAT]  
+[21:46:38] [Client thread/INFO]: [CHAT]      Game Goal: Break opponent's bed and protect your's.
+[21:46:38] [Client thread/INFO]: [CHAT]      Hint: Collect resources and buy things from villager.
+[21:46:38] [Client thread/INFO]: [CHAT]               Attention: Cross teaming is forbidden!
+[21:46:38] [Client thread/INFO]: [CHAT]   
+[21:46:38] [Client thread/INFO]: [CHAT] ❖━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❖
+[21:46:38] [Client thread/INFO]: [CHAT] If you disconnected use /rejoin to join back the game!
+[21:46:38] [Client thread/INFO]: [CHAT]  
+[21:46:38] [Client thread/INFO]: [CHAT] Phase I: Evolution
+[21:46:38] [Client thread/INFO]: [CHAT]  On this phase you need to collect ingots and build bridges to the middle. Don't forget to cover the bed!
+[21:46:41] [Client thread/INFO]: [CHAT] 
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT]  
+[21:46:41] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+     Welcome to Mineland Network
+
+ ❖ Have fun with our unique Servers! - /servers
+ ❖ Feeling alone? Invite your Friends! - /party
+ ❖ Treat yourself with Luxury! - /ranks
+ ❖ Find us out in more Platforms! - /site
+ 
+ [Facebook] - [Discord] - [Forum]
+-----------------------------------------------------
+[21:46:45] [Client thread/INFO]: [CHAT]  
+ | [CHEATS DETECTED]
+ | You were kicked out of the mini-game!
+ | Blacklisted modifications are bannable.
+ | 
+ | False positive? - mineland.net/discord/en
+ | Don't forget to send a screenshot - F2
+ | 
+ | Wed Oct 11 22:46:45 MSK 2023
+ | bwd-switch2
+ | Illegal Movements
+ 
+[21:46:47] [Client thread/INFO]: [CHAT]  Hero KeHToXa1337 » #OnlyUP!
+[21:46:49] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:46:49] [Client thread/INFO]: [CHAT] bwd-switch2 » jYA3i7dw1nr joined the game (1/16)
+[21:46:50] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -295
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -296
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -301
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -302
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -303
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -304
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -297
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -298
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -299
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -300
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -304
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -298
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -299
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -297
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -305
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -306
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -307
+[21:46:50] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -308
+[21:46:50] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:46:51] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:46:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:46:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:46:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:46:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:46:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:46:52] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:46:53] [Client thread/INFO]: [CHAT]  
+[21:46:53] [Client thread/INFO]: [CHAT] Phase II: Rush
+[21:46:53] [Client thread/INFO]: [CHAT]  Someone's bed was destroyed! Or this is about a time it might. Gear up and rush another teams!
+[21:46:53] [Client thread/ERROR]: Item entity 2729142 has no item?!
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:46:53] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:46:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:46:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:46:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:46:54] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:46:55] [Client thread/ERROR]: Item entity 2729132 has no item?!
+[21:46:56] [Client thread/ERROR]: Item entity 2728432 has no item?!
+[21:46:58] [Client thread/ERROR]: Item entity 2729282 has no item?!
+[21:47:02] [Client thread/INFO]: [CHAT] wertloz tried to escape but was killed while trying to by ⚑ Xeneza
+[21:47:09] [Client thread/INFO]: [CHAT] ⚑ Imperator ARCLER left with 20 ❤
+[21:47:09] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was thrown out of the world by ⚑ Imperator ARCLER
+[21:47:11] [Client thread/INFO]: [CHAT] ⚑ _SaifPlayz was slain by ⚑ Xeneza
+[21:47:15] [Client thread/ERROR]: Item entity 2729455 has no item?!
+[21:47:17] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:47:19] [Client thread/INFO]: [CHAT] ⚑ Black_cat5716 fell into the abyss
+[21:47:29] [Client thread/INFO]: [CHAT] _SaifPlayz tried to escape but was killed while trying to by ⚑ Xeneza
+[21:47:29] [Client thread/ERROR]: Item entity 2730346 has no item?!
+[21:47:33] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:47:34] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:47:37] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 12 ❤
+[21:47:37] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:47:41] [Client thread/ERROR]: Item entity 2731280 has no item?!
+[21:47:48] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 15 ❤
+[21:47:48] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:47:52] [Client thread/INFO]: [CHAT]  
+[21:47:52] [Client thread/INFO]: [CHAT]  |    MINELAND GANG PARTY, AKA THE CHAT     
+[21:47:52] [Client thread/INFO]: [CHAT]  |   
+[21:47:52] [Client thread/INFO]: [CHAT]  | ● Every evening the players gather... where? Why, at our Discord server
+[21:47:52] [Client thread/INFO]: [CHAT]  | ● They game, they chat, they listen to music, they make friends!
+[21:47:52] [Client thread/INFO]: [CHAT]  | ● There's just one ISSUE - you aren't there :с
+[21:47:52] [Client thread/INFO]: [CHAT]  |   
+[21:47:52] [Client thread/INFO]: [CHAT]  | ➜ The right moment is now - mineland.net/discord/en
+[21:47:52] [Client thread/INFO]: [CHAT]  
+[21:47:53] [Client thread/ERROR]: Item entity 2731441 has no item?!
+[21:47:53] [Client thread/ERROR]: Item entity 2731441 has no item?!
+[21:47:53] [Client thread/ERROR]: Item entity 2731441 has no item?!
+[21:47:53] [Client thread/ERROR]: Item entity 2731441 has no item?!
+[21:47:53] [Client thread/ERROR]: Item entity 2731441 has no item?!
+[21:47:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:48:00] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 7 ❤
+[21:48:00] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:48:07] [Client thread/INFO]: [CHAT] ⚑ ✝死んだマウス MinervaKirei fell into the abyss
+[21:48:16] [Client thread/INFO]: [CHAT] ⚑ Imperator ARCLER fell into the abyss
+[21:48:28] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:48:32] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 13 ❤
+[21:48:32] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:48:38] [Client thread/ERROR]: Item entity 2733154 has no item?!
+[21:48:41] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:48:41] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:48:43] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 10 ❤
+[21:48:43] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:48:57] [Client thread/INFO]: [CHAT] jYA3i7dw1nr fell into the abyss
+[21:49:07] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 17 ❤
+[21:49:07] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:49:14] [Client thread/INFO]: [CHAT] ⚑ Samir15 fell into the abyss
+[21:49:16] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:19] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:19] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:19] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:19] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 7 ❤
+[21:49:19] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:49:21] [Client thread/INFO]: [CHAT] 
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT]  
+[21:49:21] [Client thread/INFO]: [CHAT] -----------------------------------------------------
+     Welcome to Mineland Network
+
+ ❖ Have fun with our unique Servers! - /servers
+ ❖ Feeling alone? Invite your Friends! - /party
+ ❖ Treat yourself with Luxury! - /ranks
+ ❖ Find us out in more Platforms! - /site
+ 
+ [Facebook] - [Discord] - [Forum]
+-----------------------------------------------------
+[21:49:21] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.scoreboard.Scoreboard.removeTeam(Scoreboard.java:296) ~[bin/:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleTeams(NetHandlerPlayClient.java:1605) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:100) ~[bin/:?]
+	at net.minecraft.network.play.server.S3EPacketTeams.processPacket(S3EPacketTeams.java:12) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:21] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:21] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:21] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:21] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:21] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:22] [Client thread/INFO]: [CHAT]  ▶ Imperator Stijnsco pipo's.
+[21:49:24] [Client thread/INFO]: [CHAT]  
+ | [CHEATS DETECTED]
+ | You were kicked out of the mini-game!
+ | Blacklisted modifications are bannable.
+ | 
+ | False positive? - mineland.net/discord/en
+ | Don't forget to send a screenshot - F2
+ | 
+ | Wed Oct 11 22:49:24 MSK 2023
+ | bwd-switch2
+ | Attacking Suspiciously
+ 
+[21:49:27] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:49:27] [Client thread/INFO]: [CHAT] bwd-switch2 » jYA3i7dw1nr joined the game (12/16)
+[21:49:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -295
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -296
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -301
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -302
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -303
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -304
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -297
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -298
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -299
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -300
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -304
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -298
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -299
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -297
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -305
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -306
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -307
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 269, 221, -308
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -305
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 240, 215, -306
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 237, -303
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 216, -300
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 237, -304
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -294
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -295
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -296
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 238, -303
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 238, -302
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 238, -304
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 239, 219, -296
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 215, -303
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 217, -303
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 217, -300
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 215, -300
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 217, -300
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 215, -285
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 214, -286
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 219, -287
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 235, 215, -285
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 218, -284
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -285
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 235, 218, -284
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 218, -283
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 236, 219, -285
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -312
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -313
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 234, 215, -314
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 233, 215, -314
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 238, 239, -307
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -307
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -308
+[21:49:29] [Client thread/INFO]: [CHAT] Unable to locate sign at 237, 215, -309
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:49:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:49:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:49:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:49:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:49:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:49:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:49:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:49:31] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:49:32] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:49:32] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:49:32] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:49:32] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:49:32] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:49:33] [Client thread/ERROR]: Item entity 2734984 has no item?!
+[21:49:33] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:35] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 13 ❤
+[21:49:35] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:49:40] [Client thread/ERROR]: Item entity 2735009 has no item?!
+[21:49:40] [Client thread/ERROR]: Item entity 2735009 has no item?!
+[21:49:40] [Client thread/ERROR]: Item entity 2735009 has no item?!
+[21:49:40] [Client thread/ERROR]: Item entity 2735009 has no item?!
+[21:49:49] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:49:51] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn left with 10 ❤
+[21:49:51] [Client thread/INFO]: [CHAT] jYA3i7dw1nr was slain by ⚑ 77Fxnn
+[21:50:02] [Client thread/INFO]: [CHAT] jYA3i7dw1nr fell into the abyss
+[21:50:10] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:50:15] [Client thread/INFO]: [CHAT] ⚑ Mors fell into the abyss
+[21:50:20] [Client thread/ERROR]: Item entity 2736893 has no item?!
+[21:50:22] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn fell into the abyss
+[21:50:24] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../wurst/modules.json
+[21:50:25] [Client thread/INFO]: [CHAT] bwd-switch2 » Party Xeneza, jYA3i7dw1nr joined the game (5/16)
+[21:50:26] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Nexus/Modules/Active.txt
+[21:50:26] [Client thread/INFO]: [CHAT] bwd-switch2 » 77Fxnn joined the game (6/16)
+[21:50:26] [Client thread/INFO]: [CHAT] bwd-switch2 » Mors joined the game (7/16)
+[21:50:26] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Flux/conf_global.txt
+[21:50:26] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:50:26] [Client thread/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Nodus/Nodus.json
+[21:50:26] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/NodusLauncher/NodusLauncher.json
+[21:50:26] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/huzuni/huzuni.json
+[21:50:26] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-MC1.8.jar
+[21:50:26] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/LiquidBounce1.8.9.jar
+[21:50:27] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Wolfram/preferences.wolfram
+[21:50:27] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../Impact/config.cfg
+[21:50:27] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.2/1.12.2-Impact_4.7.2.json
+[21:50:27] [Client thread/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/1.12.2-Impact_4.7.3/1.12.2-Impact_4.7.3.json
+[21:50:27] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Quiet/Quiet.json
+[21:50:27] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Sigma/Sigma.json
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Reach_Mod_1.8.9_1.jar
+[21:50:28] [Client thread/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ape.jar
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Huzuni-5.0.2_01.jar
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/asparagus-1.0.jar
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/BLGC/BLGC.jar
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Bape-1.8.9/Bape-1.8.9.jar
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.11.2/SkillClientGhostly-1.11.2.jar
+[21:50:28] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/SkillClientGhostly-1.12.2/SkillClientGhostly-1.12.2.jar
+[21:50:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/ghostskillclient.jar
+[21:50:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../version/Hydra/Hydra.jar
+[21:50:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../key_gg/legit.jar
+[21:50:29] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/KeyRecorder/d3b91.dll
+[21:50:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/GameJAD/GameJAD.jar
+[21:50:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../versions/Kronos/Kronos.jar
+[21:50:30] [Netty Epoll Client IO #3/INFO]: [CHAT] §6[§9xenza§6] §7Just blocked a illegal exploit to check for file: ../mods/Fastings/jars/click.jar
+[21:50:48] [Client thread/INFO]: [CHAT] bwd-switch2 » Bo9alXIceSpice joined the game (8/16)
+[21:51:03] [Client thread/INFO]: [CHAT] bwd-switch2 » Skilled Bishnu joined the game (8/16)
+[21:51:06] [Client thread/INFO]: [CHAT] bwd-switch2 » Bo9alXIceSpice joined the game (9/16)
+[21:51:12] [Client thread/INFO]: [CHAT]  
+[21:51:12] [Client thread/INFO]: [CHAT]  |    BOOSTERS STRAIGHT OUTTA JAIL     
+[21:51:12] [Client thread/INFO]: [CHAT]  |  So, newbie? Tired already? Thought so...
+[21:51:12] [Client thread/INFO]: [CHAT]  |  These requirements keep being out of your reach?
+[21:51:12] [Client thread/INFO]: [CHAT]  |   
+[21:51:12] [Client thread/INFO]: [CHAT]  | ● Our mates recendly made something absolutely bloody AWESOME!
+[21:51:12] [Client thread/INFO]: [CHAT]  | ● Boosters to speed leveling up, you'll be like The Flash himself
+[21:51:12] [Client thread/INFO]: [CHAT]  |   
+[21:51:12] [Client thread/INFO]: [CHAT]  | ➜ Or maybe even faster! Learn more, quick - mineland.net/store/category/39
+[21:51:12] [Client thread/INFO]: [CHAT]  
+[21:51:14] [Client thread/INFO]: [CHAT] bwd-switch2 » Party Yassinoo21, Aboodkiler2 joined the game (11/16)
+[21:51:30] [Client thread/INFO]: [CHAT] bwd-switch2 » hisbia joined the game (11/16)
+[21:51:38] [Client thread/INFO]: [CHAT] bwd-switch2 » Tharmas joined the game (12/16)
+[21:51:41] [Client thread/INFO]: [CHAT] bwd-switch2 » Moder⁺ 15crystalX joined the game (13/16)
+[21:51:41] [Client thread/INFO]: [CHAT] bwd-switch2 » Xmacher20 joined the game (14/16)
+[21:52:03] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:52:03] [Client thread/INFO]: [CHAT]                          ＭＩＮＥＬＡＮＤ ＢＥＤＷＡＲＳ
+[21:52:03] [Client thread/INFO]: [CHAT]  
+[21:52:03] [Client thread/INFO]: [CHAT]      Game Goal: Break opponent's bed and protect your's.
+[21:52:03] [Client thread/INFO]: [CHAT]      Hint: Collect resources and buy things from villager.
+[21:52:03] [Client thread/INFO]: [CHAT]               Attention: Cross teaming is forbidden!
+[21:52:03] [Client thread/INFO]: [CHAT]   
+[21:52:03] [Client thread/INFO]: [CHAT] ❖━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❖
+[21:52:03] [Client thread/INFO]: [CHAT] If you disconnected use /rejoin to join back the game!
+[21:52:03] [Client thread/INFO]: [CHAT]  
+[21:52:03] [Client thread/INFO]: [CHAT] Phase I: Evolution
+[21:52:03] [Client thread/INFO]: [CHAT]  On this phase you need to collect ingots and build bridges to the middle. Don't forget to cover the bed!
+[21:52:09] [Client thread/INFO]: [CHAT] ⚑ jYA3i7dw1nr fell into the abyss
+[21:52:16] [Client thread/INFO]: [CHAT]  
+[21:52:16] [Client thread/INFO]: [CHAT] Phase II: Rush
+[21:52:16] [Client thread/INFO]: [CHAT]  Someone's bed was destroyed! Or this is about a time it might. Gear up and rush another teams!
+[21:52:21] [Client thread/INFO]: [CHAT] ⚑ Aboodkiler2 was slain by ⚑ Xeneza
+[21:52:22] [Client thread/INFO]: [CHAT] ⚑ Xeneza was slain by ⚑ Yassinoo21
+[21:52:29] [Client thread/INFO]: [CHAT] Yassinoo21 tried to escape but was killed while trying to by ⚑ Xeneza
+[21:52:29] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:52:32] [Client thread/INFO]: [CHAT] ⚑ Samir15 left with 16 ❤
+[21:52:32] [Client thread/INFO]: [CHAT] ⚑ jYA3i7dw1nr was slain by ⚑ Samir15
+[21:52:38] [Client thread/INFO]: [CHAT] SAMLG777 tried to escape but was killed while trying to by ⚑ jYA3i7dw1nr
+[21:52:55] [Client thread/INFO]: [CHAT] ⚑ Skilled Bishnu was slain by ⚑ Xmacher20
+[21:53:04] [Client thread/INFO]: [CHAT] ⚑ Bo9alXIceSpice fell into the abyss
+[21:53:08] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:53:11] [Client thread/INFO]: [CHAT] ⚑ Xmacher20 was slain by ⚑ Skilled Bishnu
+[21:53:26] [Client thread/INFO]: [CHAT] ⚑ Tharmas was slain by ⚑ Skilled Bishnu
+[21:53:32] [Client thread/INFO]: [CHAT] ⚑ jYA3i7dw1nr hit the ground too hard
+[21:53:43] [Client thread/INFO]: [CHAT] ⚑ Xeneza fell into the abyss
+[21:53:46] [Client thread/INFO]: [CHAT] Party » Party is disbanded.
+[21:53:53] [Client thread/INFO]: [CHAT] ⚑ Mors fell into the abyss
+[21:53:55] [Client thread/ERROR]: Item entity 2744147 has no item?!
+[21:53:55] [Client thread/ERROR]: Item entity 2744147 has no item?!
+[21:53:55] [Client thread/ERROR]: Item entity 2744147 has no item?!
+[21:53:55] [Client thread/ERROR]: Item entity 2744147 has no item?!
+[21:54:09] [Client thread/INFO]: [CHAT] ⚑ jYA3i7dw1nr fell into the abyss
+[21:54:19] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:20) ~[bin/:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:873) ~[bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354) ~[bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:104) ~[bin/:?]
+	at Start.main(Start.java:11) ~[bin/:?]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.client.network.NetHandlerPlayClient.handleSpawnPlayer(NetHandlerPlayClient.java:466) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:70) ~[bin/:?]
+	at net.minecraft.network.play.server.S0CPacketSpawnPlayer.processPacket(S0CPacketSpawnPlayer.java:15) ~[bin/:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:11) ~[bin/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_382]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_382]
+	at net.minecraft.util.Util.func_181617_a(Util.java:19) ~[bin/:?]
+	... 4 more
+[21:54:21] [Client thread/INFO]: [CHAT] +9 Gold
+[21:54:21] [Client thread/INFO]: [CHAT] +1 Iron
+[21:54:21] [Client thread/INFO]: [CHAT] ⚑ 77Fxnn was slain by ⚑ jYA3i7dw1nr
+[21:54:28] [Client thread/ERROR]: Item entity 2745256 has no item?!
+[21:54:32] [Client thread/INFO]: [CHAT]  
+[21:54:32] [Client thread/INFO]: [CHAT]  |   
+[21:54:32] [Client thread/INFO]: [CHAT]  
+[21:54:33] [Client thread/INFO]: [CHAT] ⚑ jYA3i7dw1nr fell into the abyss
+[21:54:39] [Client thread/ERROR]: Item entity 2745661 has no item?!
+[21:54:39] [Client thread/ERROR]: Item entity 2745661 has no item?!
+[21:54:39] [Client thread/ERROR]: Item entity 2745661 has no item?!
+[21:54:39] [Client thread/ERROR]: Item entity 2745661 has no item?!
+[21:54:42] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:54:42] [Client thread/INFO]: [CHAT]   
+[21:54:42] [Client thread/INFO]: [CHAT]                     ✪ Victory - Gray ✪
+[21:54:42] [Client thread/INFO]: [CHAT]   
+[21:54:42] [Client thread/INFO]: [CHAT]   ➀: ⚑ jYA3i7dw1nr, Skilled Bishnu, Xeneza - 2 Final kills
+[21:54:42] [Client thread/INFO]: [CHAT]   
+[21:54:42] [Client thread/INFO]: [CHAT]   
+[21:54:42] [Client thread/INFO]: [CHAT]   
+[21:54:42] [Client thread/INFO]: [CHAT]   You've got 1 place, your results - 2 Final kills
+[21:54:42] [Client thread/INFO]: [CHAT]   You received: 650 silver
+[21:54:42] [Client thread/INFO]: [CHAT]   For bed breaking +600 silver
+[21:54:42] [Client thread/INFO]: [CHAT]   by having a rank +0 silver
+[21:54:42] [Client thread/INFO]: [CHAT]   
+[21:54:42] [Client thread/INFO]: [CHAT] ❖|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|❖
+[21:54:42] [Client thread/INFO]: [CHAT] Samir15 tried to escape but was killed while trying to by ⚑ jYA3i7dw1nr
+[21:54:46] [Client thread/ERROR]: Can't ping mc.skycave.pro: Disconnected
+[21:54:47] [Client thread/INFO]: Stopping!
+[21:54:48] [Client thread/INFO]: SoundSystem shutting down...
+[21:54:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

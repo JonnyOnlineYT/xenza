@@ -1,0 +1,102 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 16.09.23 13:20
+Description: Unexpected error
+
+java.lang.RuntimeException: java.lang.RuntimeException: Error invoking reflected method
+	at net.lenni0451.eventapi.manager.EventManager.call(EventManager.java:39)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:140)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:95)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1179)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:937)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:354)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+Caused by: java.lang.RuntimeException: Error invoking reflected method
+	at net.lenni0451.eventapi.reflection.ReflectedEventListener.onEvent(ReflectedEventListener.java:27)
+	at net.lenni0451.eventapi.manager.EventManager.call(EventManager.java:36)
+	... 7 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.lenni0451.eventapi.reflection.ReflectedEventListener.onEvent(ReflectedEventListener.java:25)
+	... 8 more
+Caused by: java.lang.NullPointerException
+	at net.augustus.modules.render.NameTags.name2d(NameTags.java:134)
+	at net.augustus.modules.render.NameTags.uwe(NameTags.java:78)
+	... 12 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.lenni0451.eventapi.manager.EventManager.call(EventManager.java:39)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:140)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:95)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 7 total; [EntityPlayerSP['JonnyOnlineYT'/5364231, l='MpServer', x=105,66, y=47,00, z=96,25], EntityOtherPlayerMP['mexss'/5329947, l='MpServer', x=115,79, y=42,00, z=119,84], EntityOtherPlayerMP['VerifMoi'/4976096, l='MpServer', x=68,22, y=42,00, z=117,97], EntityOtherPlayerMP['odmg'/5361368, l='MpServer', x=65,69, y=42,00, z=96,38], EntityOtherPlayerMP['Walking'/297, l='MpServer', x=150,76, y=42,00, z=94,91], EntityOtherPlayerMP['Teleporting'/321, l='MpServer', x=152,00, y=44,43, z=87,00], EntityOtherPlayerMP['Teleporting'/324, l='MpServer', x=149,00, y=42,76, z=87,00]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 196,00,41,00,105,00 - World: (196,41,105), Chunk: (at 4,2,9 in 12,6; contains blocks 192,0,96 to 207,255,111), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 619209614 game time, 24000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 29 total; [EntityArmorStand['§cCivBreak'/256, l='MpServer', x=82,94, y=43,59, z=115,69], EntityArmorStand['Killaura-Switch-5'/0, l='MpServer', x=109,53, y=43,78, z=146,31], EntityPlayerSP['JonnyOnlineYT'/5364231, l='MpServer', x=105,66, y=47,00, z=96,25], EntityArmorStand['§cMore Killaura Stuff'/257, l='MpServer', x=105,31, y=43,59, z=139,84], EntityOtherPlayerMP['Teleporting'/321, l='MpServer', x=152,00, y=44,43, z=87,00], EntityArmorStand['Killaura-Switch-1'/1, l='MpServer', x=106,41, y=43,78, z=149,50], EntityArmorStand['Killaura-Switch-4'/2, l='MpServer', x=109,50, y=43,78, z=152,56], EntityArmorStand['Killaura-Switch-3'/3, l='MpServer', x=112,47, y=43,78, z=149,50], EntityOtherPlayerMP['mexss'/5329947, l='MpServer', x=115,79, y=42,00, z=119,84], EntityOtherPlayerMP['Teleporting'/324, l='MpServer', x=149,00, y=42,76, z=87,00], EntityArmorStand['§cVelocity'/263, l='MpServer', x=149,13, y=43,63, z=110,06], EntityArmorStand['§cJesus'/264, l='MpServer', x=154,63, y=43,63, z=136,38], EntityOtherPlayerMP['VerifMoi'/4976096, l='MpServer', x=68,22, y=42,00, z=117,97], EntityOtherPlayerMP['odmg'/5361368, l='MpServer', x=65,69, y=42,00, z=96,38], EntityArmorStand['§cBreaker'/265, l='MpServer', x=84,59, y=43,63, z=148,09], EntityOtherPlayerMP['mexss'/5329947, l='MpServer', x=115,79, y=42,00, z=119,84], EntityArmorStand['§cChests'/266, l='MpServer', x=83,66, y=43,63, z=132,31], EntityOtherPlayerMP['odmg'/5361368, l='MpServer', x=65,69, y=42,00, z=96,38], EntityArmorStand['§cScaffold'/267, l='MpServer', x=69,56, y=43,63, z=104,00], EntityArmorStand['§cSpeed Test'/268, l='MpServer', x=117,34, y=44,09, z=102,41], EntityOtherPlayerMP['Walking'/297, l='MpServer', x=150,76, y=42,00, z=94,91], EntityArmorStand['§cLongJump'/269, l='MpServer', x=140,22, y=44,34, z=100,94], EntityOtherPlayerMP['Teleporting'/321, l='MpServer', x=152,00, y=44,43, z=87,00], EntityArmorStand['§cFall'/270, l='MpServer', x=124,38, y=44,72, z=110,94], EntityOtherPlayerMP['Teleporting'/324, l='MpServer', x=149,00, y=42,76, z=87,00], EntityArmorStand['§cPhase'/271, l='MpServer', x=167,44, y=45,47, z=109,50], EntityArmorStand['§6§l<------- Velocity test this way'/274, l='MpServer', x=151,81, y=45,13, z=133,06], EntityOtherPlayerMP['Walking'/297, l='MpServer', x=150,76, y=42,00, z=94,91], EntityOtherPlayerMP['VerifMoi'/4976096, l='MpServer', x=68,22, y=42,00, z=117,97]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2214)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:371)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.4.12-zen1-1-zen
+	CPU: <unknown>
+	Java Version: 1.8.0_382, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 7038390448 bytes (6712 MB) / 8232370176 bytes (7851 MB) up to 8232370176 bytes (7851 MB)
+	JVM Flags: 3 total; -Xmx8G -Xms8G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 6
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

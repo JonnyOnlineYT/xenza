@@ -1,0 +1,38 @@
+[
+  {
+    "x": 401,
+    "y": 133,
+    "open": true,
+    "categorys": "MOVEMENT"
+  },
+  {
+    "x": 678,
+    "y": 135,
+    "open": true,
+    "categorys": "COMBAT"
+  },
+  {
+    "x": 7,
+    "y": 264,
+    "open": true,
+    "categorys": "PLAYER"
+  },
+  {
+    "x": 50,
+    "y": 32,
+    "open": true,
+    "categorys": "MISC"
+  },
+  {
+    "x": 184,
+    "y": 57,
+    "open": true,
+    "categorys": "RENDER"
+  },
+  {
+    "x": 510,
+    "y": 15,
+    "open": true,
+    "categorys": "WORLD"
+  }
+]

@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// Surprise! Haha. Well, this is awkward.
+
+Time: 10.09.23 00:55
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at net.augustus.utils.skid.wurst.EntityFakePlayer.<init>(EntityFakePlayer.java:12)
+	at net.augustus.modules.movement.Blink.onEnable(Blink.java:42)
+	at net.augustus.modules.Module.toggle(Module.java:82)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1533)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:868)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:347)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.augustus.utils.skid.wurst.EntityFakePlayer.<init>(EntityFakePlayer.java:12)
+	at net.augustus.modules.movement.Blink.onEnable(Blink.java:42)
+	at net.augustus.modules.Module.toggle(Module.java:82)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player113'/86, l='MpServer', x=1438,13, y=71,00, z=710,22]]
+	Chunk stats: MultiplayerChunkCache: 169, 169
+	Level seed: 0
+	Level generator: ID 02 - largeBiomes, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 584,00,64,00,166,00 - World: (584,64,166), Chunk: (at 8,4,6 in 36,10; contains blocks 576,0,160 to 591,255,175), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Level time: 216682 game time, 99649 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 37 total; [EntityZombie['Marcel'/128, l='MpServer', x=1407,50, y=29,00, z=701,50], EntityCreeper['Creeper'/129, l='MpServer', x=1403,50, y=33,00, z=719,50], EntitySkeleton['Skeleton'/130, l='MpServer', x=1410,50, y=29,00, z=702,50], EntityBat['Bat'/131, l='MpServer', x=1408,00, y=30,08, z=694,39], EntityBat['Bat'/132, l='MpServer', x=1418,28, y=29,28, z=708,92], EntitySpider['Spider'/133, l='MpServer', x=1420,50, y=28,00, z=707,50], EntityZombie['Marcel'/134, l='MpServer', x=1423,73, y=28,91, z=713,25], EntityCreeper['Creeper'/135, l='MpServer', x=1411,94, y=30,00, z=713,44], EntityCreeper['Creeper'/136, l='MpServer', x=1422,50, y=28,00, z=710,50], EntityCreeper['Creeper'/137, l='MpServer', x=1419,50, y=28,00, z=713,50], EntityCreeper['Creeper'/138, l='MpServer', x=1420,50, y=28,00, z=713,50], EntityBat['Bat'/139, l='MpServer', x=1420,49, y=35,01, z=714,45], EntitySkeleton['Skeleton'/140, l='MpServer', x=1423,50, y=39,00, z=721,50], EntityZombie['Marcel'/141, l='MpServer', x=1422,28, y=39,00, z=722,28], EntityZombie['Marcel'/142, l='MpServer', x=1422,28, y=38,00, z=724,69], EntityBat['Bat'/143, l='MpServer', x=1412,50, y=38,25, z=723,27], EntityBat['Bat'/144, l='MpServer', x=1411,96, y=36,04, z=724,26], EntityBat['Bat'/145, l='MpServer', x=1418,45, y=34,17, z=730,56], EntitySkeleton['Skeleton'/146, l='MpServer', x=1432,32, y=21,00, z=685,47], EntitySkeleton['Skeleton'/147, l='MpServer', x=1430,50, y=20,00, z=688,50], EntitySkeleton['Skeleton'/148, l='MpServer', x=1434,50, y=20,00, z=693,50], EntitySkeleton['Skeleton'/149, l='MpServer', x=1435,50, y=20,00, z=692,50], EntityBat['Bat'/150, l='MpServer', x=1426,66, y=41,10, z=703,25], EntityPlayerSP['Player113'/86, l='MpServer', x=1438,13, y=71,00, z=710,22], EntitySpider['Spider'/151, l='MpServer', x=1424,16, y=39,00, z=723,50], EntitySpider['Spider'/88, l='MpServer', x=1425,44, y=30,00, z=710,03], EntitySkeleton['Skeleton'/152, l='MpServer', x=1437,50, y=46,00, z=739,50], EntityBat['Bat'/89, l='MpServer', x=1428,41, y=37,80, z=706,54], EntitySpider['Spider'/155, l='MpServer', x=1480,50, y=33,00, z=786,50], EntityCreeper['Creeper'/159, l='MpServer', x=1514,50, y=13,00, z=756,50], EntityBat['Bat'/119, l='MpServer', x=1361,09, y=15,00, z=693,41], EntityCreeper['Creeper'/247, l='MpServer', x=1367,50, y=57,00, z=789,50], EntityZombie['Marcel'/120, l='MpServer', x=1366,50, y=12,00, z=752,50], EntitySkeleton['Skeleton'/121, l='MpServer', x=1362,50, y=12,00, z=783,50], EntityZombie['Marcel'/125, l='MpServer', x=1387,50, y=31,00, z=725,50], EntityZombie['Marcel'/126, l='MpServer', x=1388,50, y=31,00, z=724,50], EntityBat['Bat'/127, l='MpServer', x=1385,75, y=30,33, z=728,13]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2167)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:364)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.4.12-zen1-1-zen
+	CPU: <unknown>
+	Java Version: 1.8.0_382, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 7352442456 bytes (7011 MB) / 8232370176 bytes (7851 MB) up to 8232370176 bytes (7851 MB)
+	JVM Flags: 3 total; -Xmx8G -Xms8G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 6
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

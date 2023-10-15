@@ -1,0 +1,125 @@
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 18.06.23 11:53
+Description: Rendering entity in world
+
+java.lang.NullPointerException: Rendering entity in world
+	at net.minecraft.entity.Entity.getDistanceSqToEntity(Entity.java:1000)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:453)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:35)
+	at net.minecraft.client.renderer.entity.Render.doRender(Render.java:54)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.doRender(RendererLivingEntity.java:177)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:51)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:21)
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:343)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityWithPosYaw(RenderManager.java:329)
+	at net.minecraft.client.gui.inventory.GuiInventory.drawEntityOnScreen(GuiInventory.java:91)
+	at net.augustus.ui.GuiIngameHook.drawTargetHud(GuiIngameHook.java:366)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:120)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1179)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:891)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:348)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.Entity.getDistanceSqToEntity(Entity.java:1000)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:453)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:35)
+	at net.minecraft.client.renderer.entity.Render.doRender(Render.java:54)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.doRender(RendererLivingEntity.java:177)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:51)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:21)
+
+-- Entity being rendered --
+Details:
+	Entity Type: null (net.minecraft.client.entity.EntityOtherPlayerMP)
+	Entity ID: 1497
+	Entity Name: Standing
+	Entity's Exact location: -554,50, 4,00, -66,53
+	Entity's Block location: -555,00,4,00,-67,00 - World: (-555,4,-67), Chunk: (at 5,0,13 in -35,-5; contains blocks -560,0,-80 to -545,255,-65), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,0,-512 to -513,255,-1)
+	Entity's Momentum: 0,00, 0,00, 0,00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+
+-- Renderer details --
+Details:
+	Assigned renderer: net.minecraft.client.renderer.entity.RenderPlayer@5b1cedfd
+	Location: 0,00,0,00,0,00 - World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Rotation: 0.0
+	Delta: 1.0
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:343)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityWithPosYaw(RenderManager.java:329)
+	at net.minecraft.client.gui.inventory.GuiInventory.drawEntityOnScreen(GuiInventory.java:91)
+	at net.augustus.ui.GuiIngameHook.drawTargetHud(GuiIngameHook.java:366)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:120)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 15 total; [EntityPlayerSP['JonnyOnlineYT'/7624451, l='MpServer', x=-559,06, y=4,00, z=-63,40], EntityOtherPlayerMP['a22ca5d6'/7624452, l='MpServer', x=-559,06, y=7,59, z=-62,41], EntityOtherPlayerMP['Moving'/1441, l='MpServer', x=-551,44, y=4,00, z=-54,06], EntityOtherPlayerMP['Standing'/1444, l='MpServer', x=-551,50, y=4,00, z=-63,50], EntityOtherPlayerMP['Moving'/1515, l='MpServer', x=-551,69, y=4,00, z=-48,72], EntityOtherPlayerMP['Wall'/1506, l='MpServer', x=-547,44, y=4,00, z=-32,47], EntityOtherPlayerMP['Wall'/1509, l='MpServer', x=-555,50, y=4,00, z=-32,47], EntityOtherPlayerMP['Moving'/1512, l='MpServer', x=-554,38, y=4,00, z=-45,34], EntityOtherPlayerMP['Standing'/1497, l='MpServer', x=-554,50, y=4,00, z=-66,53], EntityOtherPlayerMP['Standing'/1500, l='MpServer', x=-551,47, y=4,00, z=-69,59], EntityOtherPlayerMP['Standing'/1503, l='MpServer', x=-548,50, y=4,00, z=-66,53], EntityOtherPlayerMP['monsterclash217'/7392282, l='MpServer', x=-536,06, y=4,00, z=-27,06], EntityOtherPlayerMP['Wall'/1521, l='MpServer', x=-547,66, y=4,00, z=-25,53], EntityOtherPlayerMP['Wall'/1524, l='MpServer', x=-555,59, y=4,00, z=-25,47], EntityOtherPlayerMP['Standing'/1518, l='MpServer', x=-551,53, y=4,00, z=-84,53]]
+	Chunk stats: MultiplayerChunkCache: 140, 140
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 200,00,4,00,104,00 - World: (200,4,104), Chunk: (at 8,0,8 in 12,6; contains blocks 192,0,96 to 207,255,111), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 486500670 game time, 24000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 65 total; [EntityPlayerSP['JonnyOnlineYT'/7624451, l='MpServer', x=-559,06, y=4,00, z=-63,40], EntityOtherPlayerMP['a22ca5d6'/7624452, l='MpServer', x=-559,06, y=7,59, z=-62,41], EntityOtherPlayerMP['Moving'/1441, l='MpServer', x=-551,44, y=4,00, z=-54,06], EntityOtherPlayerMP['Standing'/1444, l='MpServer', x=-551,50, y=4,00, z=-63,50], EntityOtherPlayerMP['Moving'/1515, l='MpServer', x=-551,69, y=4,00, z=-48,72], EntityOtherPlayerMP['Wall'/1506, l='MpServer', x=-547,44, y=4,00, z=-32,47], EntityOtherPlayerMP['Wall'/1509, l='MpServer', x=-555,50, y=4,00, z=-32,47], EntityOtherPlayerMP['Moving'/1512, l='MpServer', x=-554,38, y=4,00, z=-45,34], EntityOtherPlayerMP['Standing'/1497, l='MpServer', x=-554,50, y=4,00, z=-66,53], EntityOtherPlayerMP['Standing'/1500, l='MpServer', x=-551,47, y=4,00, z=-69,59], EntityOtherPlayerMP['Standing'/1503, l='MpServer', x=-548,50, y=4,00, z=-66,53], EntityOtherPlayerMP['monsterclash217'/7392282, l='MpServer', x=-536,06, y=4,00, z=-27,06], EntityOtherPlayerMP['Wall'/1521, l='MpServer', x=-547,66, y=4,00, z=-25,53], EntityOtherPlayerMP['Wall'/1524, l='MpServer', x=-555,59, y=4,00, z=-25,47], EntityOtherPlayerMP['Standing'/1518, l='MpServer', x=-551,53, y=4,00, z=-84,53], EntityOtherPlayerMP['Moving'/1441, l='MpServer', x=-551,44, y=4,00, z=-54,06], EntityOtherPlayerMP['Standing'/1444, l='MpServer', x=-551,50, y=4,00, z=-63,50], EntityArmorStand['§bSpeed Test'/1447, l='MpServer', x=-538,66, y=5,59, z=-48,56], EntityArmorStand['§bAura'/1448, l='MpServer', x=-544,69, y=5,22, z=-42,22], EntityArmorStand['§bPhase'/1449, l='MpServer', x=-575,38, y=5,22, z=-40,53], EntityArmorStand['§bPvP'/1450, l='MpServer', x=-515,63, y=5,59, z=-50,38], EntityArmorStand['§bJump'/1451, l='MpServer', x=-520,91, y=5,59, z=-50,34], EntityArmorStand['§bIce'/1452, l='MpServer', x=-588,88, y=5,22, z=-66,19], EntityArmorStand['§bHead Hitters'/1454, l='MpServer', x=-516,81, y=5,59, z=-43,59], EntityArmorStand['§bStep'/1455, l='MpServer', x=-581,84, y=6,00, z=-20,56], EntityArmorStand['Easy Anti-Cheat cannot run if Driver Signature Enforcement has been disabled'/1456, l='MpServer', x=-532,88, y=9,38, z=-23,84], EntityArmorStand['§6/settings §bto modify settings'/1458, l='MpServer', x=-545,41, y=5,78, z=-11,22], EntityArmorStand['§bScaffold'/5974889, l='MpServer', x=-562,16, y=6,00, z=-0,88], EntityArmorStand['§bCactus'/5974894, l='MpServer', x=-605,78, y=5,22, z=-40,78], EntityArmorStand['§bTeleports'/1462, l='MpServer', x=-542,44, y=6,00, z=-1,41], EntityArmorStand['§bNo Slow'/5974893, l='MpServer', x=-594,63, y=5,22, z=-40,28], EntityArmorStand['§bSlime'/5974892, l='MpServer', x=-519,94, y=5,59, z=-74,13], EntityArmorStand['§c/ac | /anticheat'/1463, l='MpServer', x=-539,50, y=5,25, z=-12,63], EntityArmorStand['§bto select an anticheat to test'/1464, l='MpServer', x=-539,50, y=5,00, z=-12,63], EntityArmorStand['§6/items | /i §bto open the items gui'/1465, l='MpServer', x=-533,47, y=5,88, z=-10,91], EntityArmorStand['§6/server practice §bto be moved to the practice server'/1466, l='MpServer', x=-539,28, y=8,72, z=-8,56], EntityArmorStand['§bCiv Break'/1467, l='MpServer', x=-503,28, y=5,22, z=-28,84], EntityArmorStand['§bVelocity'/1468, l='MpServer', x=-525,31, y=6,00, z=-1,38], EntityArmorStand['§bChests'/5974886, l='MpServer', x=-516,09, y=5,22, z=-29,34], EntityArmorStand['§bLava'/1469, l='MpServer', x=-515,72, y=6,00, z=-0,63], EntityArmorStand['§7███§f████§8██§0█§7██'/1470, l='MpServer', x=-521,31, y=9,00, z=-12,09], EntityArmorStand['§7██§f███████§8██§7█'/1471, l='MpServer', x=-521,31, y=8,75, z=-12,09], EntityArmorStand['§7█§f█████████§7█§8█'/1472, l='MpServer', x=-521,31, y=8,50, z=-12,09], EntityArmorStand['§7█§f█§7████████§f█§7█'/1473, l='MpServer', x=-521,31, y=8,25, z=-12,09], EntityArmorStand['§f██§8█§0█§8█§7██§c█§8█§0█§8█§7█'/1474, l='MpServer', x=-521,31, y=7,97, z=-12,09], EntityArmorStand['§f██§8█§0█§8█§f█§7██§8█§0█§8█§7█'/1475, l='MpServer', x=-521,31, y=7,72, z=-12,09], EntityArmorStand['§f███§7█§f███§7█████'/1476, l='MpServer', x=-521,31, y=7,47, z=-12,09], EntityArmorStand['§f█§7████§f█§7██████'/1477, l='MpServer', x=-521,31, y=7,22, z=-12,09], EntityArmorStand['§f█§8█§7██§f█§7█§8██§7█§8█§7██'/1478, l='MpServer', x=-521,31, y=6,97, z=-12,09], EntityArmorStand['§7███§8█§7██§8██§0█§c█§7██'/1479, l='MpServer', x=-521,31, y=6,72, z=-12,09], EntityArmorStand['§f██§7████§8█§c█§7████'/1480, l='MpServer', x=-521,31, y=6,47, z=-12,09], EntityArmorStand['§f██§7█§f█§7██§c█§7█████'/1481, l='MpServer', x=-521,31, y=6,22, z=-12,09], EntityArmorStand['cat'/1482, l='MpServer', x=-521,22, y=4,63, z=-12,16], EntityOtherPlayerMP['Standing'/1497, l='MpServer', x=-554,50, y=4,00, z=-66,53], EntityOtherPlayerMP['Standing'/1500, l='MpServer', x=-551,47, y=4,00, z=-69,59], EntityOtherPlayerMP['Standing'/1503, l='MpServer', x=-548,50, y=4,00, z=-66,53], EntityOtherPlayerMP['Wall'/1506, l='MpServer', x=-547,44, y=4,00, z=-32,47], EntityOtherPlayerMP['Wall'/1509, l='MpServer', x=-555,50, y=4,00, z=-32,47], EntityOtherPlayerMP['Moving'/1512, l='MpServer', x=-554,38, y=4,00, z=-45,34], EntityOtherPlayerMP['monsterclash217'/7392282, l='MpServer', x=-536,06, y=4,00, z=-27,06], EntityOtherPlayerMP['Moving'/1515, l='MpServer', x=-551,69, y=4,00, z=-48,72], EntityOtherPlayerMP['Standing'/1518, l='MpServer', x=-551,53, y=4,00, z=-84,53], EntityOtherPlayerMP['a22ca5d6'/7624452, l='MpServer', x=-559,06, y=7,59, z=-62,41], EntityOtherPlayerMP['Wall'/1521, l='MpServer', x=-547,66, y=4,00, z=-25,53], EntityOtherPlayerMP['Wall'/1524, l='MpServer', x=-555,59, y=4,00, z=-25,47]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2168)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:360)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: <unknown>
+	Java Version: 1.8.0_372, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 5762947736 bytes (5495 MB) / 6174015488 bytes (5888 MB) up to 6174015488 bytes (5888 MB)
+	JVM Flags: 3 total; -Xmx6G -Xms6G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) UHD Graphics 620 GL version 4.6.0 - Build 31.0.101.2111, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 5
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 - Build 31.0.101.2111
+	OpenGlRenderer: Intel(R) UHD Graphics 620
+	OpenGlVendor: Intel
+	CpuCount: 8

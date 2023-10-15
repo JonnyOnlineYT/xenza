@@ -1,0 +1,90 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 03.06.23 21:21
+Description: Unexpected error
+
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at net.augustus.notify.NotificationsManager.renderNotifications(NotificationsManager.java:25)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:74)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1179)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:890)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:347)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at net.augustus.notify.NotificationsManager.renderNotifications(NotificationsManager.java:25)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:74)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 9 total; [EntityPlayerSP['Xenza_sHV2hjQdZc'/21183, l='MpServer', x=0,50, y=148,00, z=-71,50], EntityOtherPlayerMP['ElZa_a'/3572945, l='MpServer', x=-34,28, y=148,00, z=-62,69], EntityOtherPlayerMP['GAARA_PTS_PLAY'/3572946, l='MpServer', x=61,22, y=148,00, z=-34,28], EntityOtherPlayerMP['fwawaggwaf'/3573003, l='MpServer', x=-63,69, y=148,00, z=35,31], EntityOtherPlayerMP['mihan'/3573005, l='MpServer', x=72,30, y=148,00, z=1,15], EntityOtherPlayerMP['NillinMinecraft'/3573017, l='MpServer', x=-73,59, y=148,00, z=0,34], EntityOtherPlayerMP['superkolya99'/3573141, l='MpServer', x=37,28, y=148,00, z=-61,25], EntityOtherPlayerMP['Kamazz'/3573260, l='MpServer', x=-62,41, y=148,00, z=-35,50], EntityOtherPlayerMP['bobinskyi'/3573343, l='MpServer', x=61,50, y=148,00, z=37,50]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 1045,00,4,00,-1352,00 - World: (1045,4,-1352), Chunk: (at 5,0,8 in 65,-85; contains blocks 1040,0,-1360 to 1055,255,-1345), Region: (2,-3; contains chunks 64,-96 to 95,-65, blocks 1024,0,-1536 to 1535,255,-1025)
+	Level time: 113547 game time, 32166001 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: true), thunder time: 0 (now: false)
+	Level game mode: Game mode: adventure (ID 2). Hardcore: false. Cheats: false
+	Forced entities: 17 total; [EntityOtherPlayerMP['superkolya99'/3573141, l='MpServer', x=37,28, y=148,00, z=-61,25], EntityOtherPlayerMP['GAARA_PTS_PLAY'/3572946, l='MpServer', x=61,22, y=148,00, z=-34,28], EntityOtherPlayerMP['ElZa_a'/3572945, l='MpServer', x=-34,28, y=148,00, z=-62,69], EntityOtherPlayerMP['bobinskyi'/3573343, l='MpServer', x=61,50, y=148,00, z=37,50], EntityPlayerSP['Xenza_sHV2hjQdZc'/21183, l='MpServer', x=0,50, y=148,00, z=-71,50], EntityOtherPlayerMP['ElZa_a'/3572945, l='MpServer', x=-34,28, y=148,00, z=-62,69], EntityOtherPlayerMP['GAARA_PTS_PLAY'/3572946, l='MpServer', x=61,22, y=148,00, z=-34,28], EntityOtherPlayerMP['fwawaggwaf'/3573003, l='MpServer', x=-63,69, y=148,00, z=35,31], EntityOtherPlayerMP['NillinMinecraft'/3573017, l='MpServer', x=-73,59, y=148,00, z=0,34], EntityOtherPlayerMP['mihan'/3573005, l='MpServer', x=72,30, y=148,00, z=1,15], EntityOtherPlayerMP['NillinMinecraft'/3573017, l='MpServer', x=-73,59, y=148,00, z=0,34], EntityOtherPlayerMP['superkolya99'/3573141, l='MpServer', x=37,28, y=148,00, z=-61,25], EntityOtherPlayerMP['Kamazz'/3573260, l='MpServer', x=-62,41, y=148,00, z=-35,50], EntityOtherPlayerMP['bobinskyi'/3573343, l='MpServer', x=61,50, y=148,00, z=37,50], EntityOtherPlayerMP['Kamazz'/3573260, l='MpServer', x=-62,41, y=148,00, z=-35,50], EntityOtherPlayerMP['mihan'/3573005, l='MpServer', x=72,30, y=148,00, z=1,15], EntityOtherPlayerMP['fwawaggwaf'/3573003, l='MpServer', x=-63,69, y=148,00, z=35,31]]
+	Retry entities: 0 total; []
+	Server brand: NullCordX <- Paper
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2167)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:364)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.3.1-arch2-1
+	CPU: <unknown>
+	Java Version: 1.8.0_372, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 5810558544 bytes (5541 MB) / 6395789312 bytes (6099 MB) up to 6395789312 bytes (6099 MB)
+	JVM Flags: 3 total; -Xmx6G -Xms6G -Xss1G
+	IntCache: cache: 1, tcache: 1, allocated: 12, tallocated: 98
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.0.3, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 5
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.0.3
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

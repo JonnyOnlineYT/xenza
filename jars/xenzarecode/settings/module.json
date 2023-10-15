@@ -1,0 +1,482 @@
+[
+  {
+    "Name": "BlockAnimation",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "CustomItemPos",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "MurderThingy",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "StaffDetector",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "MotionGraph",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "AttackEffects",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "ChestStealer",
+    "Toggled": false,
+    "Key": 48,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "AutoRegister",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Notifications",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "TargetStrafe",
+    "Toggled": false,
+    "Key": 49,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "CustomGlint",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Trajectories",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Scoreboard",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "StorageESP",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "TestModule",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "AntiFireBall",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "AutoClicker",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "FastLadder",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "AutoArmor",
+    "Toggled": false,
+    "Key": 48,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "InvCleaner",
+    "Toggled": false,
+    "Key": 48,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "LongJump",
+    "Toggled": false,
+    "Key": 36,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "NameTags",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Projectiles",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "BackTrack",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "FastBreak",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "WORLD"
+  },
+  {
+    "Name": "Ambiance",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "FakeLaag",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "FullBright",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "AutoSoup",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "FastPlace",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "WORLD"
+  },
+  {
+    "Name": "Crosshair",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "ChinaHat",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Spammer",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Protector",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "AutoWalk",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Inventory",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "BlockESP",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "SafeWalk",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "AutoTool",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "ArrayList",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "AutoPlay",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "TickBase",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "MidClick",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Teleport",
+    "Toggled": false,
+    "Key": 44,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "FastBow",
+    "Toggled": false,
+    "Key": 21,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "Disabler",
+    "Toggled": false,
+    "Key": 23,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Criticals",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "Shaders",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Scaffold",
+    "Toggled": false,
+    "Key": 37,
+    "Category": "WORLD"
+  },
+  {
+    "Name": "ItemESP",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "ClickGui",
+    "Toggled": false,
+    "Key": 54,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Barriers",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Velocity",
+    "Toggled": false,
+    "Key": 38,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "KillAura",
+    "Toggled": false,
+    "Key": 19,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "MoreKB",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "AntiAim",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Tracers",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "AntiBot",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "NoSlow",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "NoWeb",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Fucker",
+    "Toggled": false,
+    "Key": 35,
+    "Category": "WORLD"
+  },
+  {
+    "Name": "BugUp",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Teams",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "COMBAT"
+  },
+  {
+    "Name": "Spider",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "NoFall",
+    "Toggled": false,
+    "Key": 24,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "Speed",
+    "Toggled": false,
+    "Key": 50,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Regen",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "Sprint",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Strafe",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Phase",
+    "Toggled": false,
+    "Key": 25,
+    "Category": "PLAYER"
+  },
+  {
+    "Name": "Jesus",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Timer",
+    "Toggled": false,
+    "Key": 34,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "VClip",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Fixes",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MISC"
+  },
+  {
+    "Name": "Blink",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "HUD",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Step",
+    "Toggled": false,
+    "Key": 0,
+    "Category": "MOVEMENT"
+  },
+  {
+    "Name": "Line",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "ESP",
+    "Toggled": true,
+    "Key": 0,
+    "Category": "RENDER"
+  },
+  {
+    "Name": "Fly",
+    "Toggled": false,
+    "Key": 33,
+    "Category": "MOVEMENT"
+  }
+]

@@ -1,0 +1,90 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 30.04.23 21:40
+Description: Unexpected error
+
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at net.augustus.modules.render.ArrayList.renderArrayList(ArrayList.java:69)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:52)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1179)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:907)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:352)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at net.augustus.modules.render.ArrayList.renderArrayList(ArrayList.java:69)
+	at net.augustus.ui.GuiIngameHook.renderGameOverlay(GuiIngameHook.java:52)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 3 total; [EntityPlayerSP['Xenza_KSY3g1T3tR'/16505, l='MpServer', x=0,53, y=63,00, z=52,19], EntityOtherPlayerMP['Ske1t'/16504, l='MpServer', x=0,74, y=69,28, z=65,56], EntityOtherPlayerMP['Laki_421'/16497, l='MpServer', x=17,78, y=64,00, z=56,94]]
+	Chunk stats: MultiplayerChunkCache: 439, 439
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: 0,00,92,00,0,00 - World: (0,92,0), Chunk: (at 0,5,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 205997 game time, 24000 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 30 total; [EntityArmorStand['§a02:31'/16513, l='MpServer', x=49,50, y=62,75, z=21,50], EntityArmorStand['§a02:31'/16522, l='MpServer', x=33,50, y=58,75, z=55,50], EntityArmorStand['§a02:31'/16535, l='MpServer', x=1,50, y=58,75, z=89,50], EntityArmorStand['§a02:31'/16536, l='MpServer', x=57,50, y=58,75, z=33,50], EntityItem['item.item.potion'/16538, l='MpServer', x=-31,94, y=60,00, z=57,13], EntityArmorStand['§a02:31'/16602, l='MpServer', x=8,50, y=66,75, z=-7,50], EntityArmorStand['§a02:31'/16541, l='MpServer', x=-32,50, y=58,75, z=57,50], EntityPlayerSP['Xenza_KSY3g1T3tR'/16505, l='MpServer', x=0,53, y=63,00, z=52,19], EntityOtherPlayerMP['Ske1t'/16504, l='MpServer', x=0,74, y=69,28, z=65,56], EntityOtherPlayerMP['Laki_421'/16497, l='MpServer', x=28,06, y=61,96, z=56,48], EntityOtherPlayerMP['Messiyouruncle'/16508, l='MpServer', x=-62,72, y=65,00, z=21,16], EntityArmorStand['§a02:31'/16548, l='MpServer', x=-20,50, y=62,75, z=49,50], EntityArmorStand['§a02:31'/16549, l='MpServer', x=21,50, y=62,75, z=63,50], EntityArmorStand['§a02:31'/16553, l='MpServer', x=-34,50, y=66,75, z=56,50], EntityOtherPlayerMP['Laki_421'/16497, l='MpServer', x=22,13, y=64,00, z=60,16], EntityOtherPlayerMP['Laki_421'/16497, l='MpServer', x=17,78, y=64,00, z=56,94], EntityArmorStand['§a02:31'/16625, l='MpServer', x=25,50, y=61,75, z=0,50], EntityArmorStand['§a02:31'/16564, l='MpServer', x=0,50, y=66,75, z=91,50], EntityArmorStand['§a02:31'/16565, l='MpServer', x=35,50, y=66,75, z=56,50], EntityArmorStand['§a02:31'/16567, l='MpServer', x=56,50, y=61,75, z=0,50], EntityOtherPlayerMP['Ske1t'/16504, l='MpServer', x=0,74, y=69,28, z=65,56], EntityArmorStand['§a02:31'/16568, l='MpServer', x=-7,50, y=66,75, z=8,50], EntityArmorStand['§a02:31'/16570, l='MpServer', x=56,50, y=66,75, z=35,50], EntityOtherPlayerMP['Laki_421'/16497, l='MpServer', x=17,78, y=64,00, z=56,94], EntityArmorStand['§a02:31'/16572, l='MpServer', x=8,50, y=66,75, z=8,50], EntityItem['item.item.appleGold'/16573, l='MpServer', x=0,59, y=63,00, z=55,66], EntityArmorStand['§a02:31'/16510, l='MpServer', x=-6,50, y=62,75, z=77,50], EntityArmorStand['§a02:31'/16574, l='MpServer', x=-55,50, y=61,75, z=0,50], EntityOtherPlayerMP['MoonClientOPLOL'/16500, l='MpServer', x=6,41, y=68,00, z=6,50], EntityArmorStand['§a02:31'/16575, l='MpServer', x=0,50, y=61,75, z=56,50]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot (Velocity)
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2189)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:369)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.2.9-arch1-1
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+	Java Version: 1.8.0_362, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 817789072 bytes (779 MB) / 1215823872 bytes (1159 MB) up to 3592421376 bytes (3426 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.0.1, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 7
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.0.1
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

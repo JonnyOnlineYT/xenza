@@ -1,0 +1,3130 @@
+[
+  {
+    "SelectedOption": "Intave",
+    "Name": "Mode",
+    "ParentName": "Velocity",
+    "id": 1
+  },
+  {
+    "Value": 0.0,
+    "Name": "XZVelocity",
+    "ParentName": "Velocity",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "YVelocity",
+    "ParentName": "Velocity",
+    "id": 3
+  },
+  {
+    "Value": -1.0,
+    "Name": "XZVelocity",
+    "ParentName": "Velocity",
+    "id": 5
+  },
+  {
+    "Boolean": true,
+    "Name": "Jump",
+    "ParentName": "Velocity",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "Explosion",
+    "ParentName": "Velocity",
+    "id": 4
+  },
+  {
+    "Value": 1.1,
+    "Name": "Push",
+    "ParentName": "Velocity",
+    "id": 7
+  },
+  {
+    "Value": 9.0,
+    "Name": "PushStart",
+    "ParentName": "Velocity",
+    "id": 9
+  },
+  {
+    "Value": 2.0,
+    "Name": "PushEnd",
+    "ParentName": "Velocity",
+    "id": 10
+  },
+  {
+    "Value": 9.0,
+    "Name": "ReverseStart",
+    "ParentName": "Velocity",
+    "id": 12
+  },
+  {
+    "Value": 8.0,
+    "Name": "TickZero",
+    "ParentName": "Velocity",
+    "id": 69
+  },
+  {
+    "Boolean": false,
+    "Name": "TickZeroY",
+    "ParentName": "Velocity",
+    "id": 69
+  },
+  {
+    "Boolean": false,
+    "Name": "ReverseStrafe",
+    "ParentName": "Velocity",
+    "id": 13
+  },
+  {
+    "Boolean": false,
+    "Name": "OnGround",
+    "ParentName": "Velocity",
+    "id": 10
+  },
+  {
+    "Boolean": false,
+    "Name": "HitBug",
+    "ParentName": "Velocity",
+    "id": 11
+  },
+  {
+    "Value": 4.0,
+    "Name": "PreAimRange",
+    "ParentName": "KillAura",
+    "id": 1
+  },
+  {
+    "Value": 3.0,
+    "Name": "Range",
+    "ParentName": "KillAura",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "TargetDelay",
+    "ParentName": "KillAura",
+    "id": 3
+  },
+  {
+    "Value": 180.0,
+    "Name": "YawSpeedMin",
+    "ParentName": "KillAura",
+    "id": 64
+  },
+  {
+    "Value": 180.0,
+    "Name": "YawSpeedMax",
+    "ParentName": "KillAura",
+    "id": 4
+  },
+  {
+    "Value": 180.0,
+    "Name": "PitchSpeedMin",
+    "ParentName": "KillAura",
+    "id": 65
+  },
+  {
+    "Value": 180.0,
+    "Name": "PitchSpeedMax",
+    "ParentName": "KillAura",
+    "id": 5
+  },
+  {
+    "Value": 0.0,
+    "Name": "MinDelay",
+    "ParentName": "KillAura",
+    "id": 6
+  },
+  {
+    "Value": 0.0,
+    "Name": "MaxDelay",
+    "ParentName": "KillAura",
+    "id": 46445
+  },
+  {
+    "Boolean": false,
+    "Name": "GommeFix",
+    "ParentName": "KillAura",
+    "id": 3284
+  },
+  {
+    "Boolean": false,
+    "Name": "Grim Funny",
+    "ParentName": "KillAura",
+    "id": 2356
+  },
+  {
+    "Value": 100.0,
+    "Name": "HitChance",
+    "ParentName": "KillAura",
+    "id": 7
+  },
+  {
+    "Value": 0.9,
+    "Name": "RStrength",
+    "ParentName": "KillAura",
+    "id": 8
+  },
+  {
+    "Boolean": true,
+    "Name": "Player",
+    "ParentName": "KillAura",
+    "id": 9
+  },
+  {
+    "Boolean": false,
+    "Name": "Mob",
+    "ParentName": "KillAura",
+    "id": 10
+  },
+  {
+    "Boolean": false,
+    "Name": "Animal",
+    "ParentName": "KillAura",
+    "id": 11
+  },
+  {
+    "Boolean": false,
+    "Name": "Villager",
+    "ParentName": "KillAura",
+    "id": 12
+  },
+  {
+    "Boolean": false,
+    "Name": "ArmorStand",
+    "ParentName": "KillAura",
+    "id": 13
+  },
+  {
+    "Boolean": true,
+    "Name": "Invisible",
+    "ParentName": "KillAura",
+    "id": 888
+  },
+  {
+    "Boolean": false,
+    "Name": "Interpolation",
+    "ParentName": "KillAura",
+    "id": 14
+  },
+  {
+    "Boolean": false,
+    "Name": "SBRotate",
+    "ParentName": "KillAura",
+    "id": 15
+  },
+  {
+    "Boolean": false,
+    "Name": "StopOnTarget",
+    "ParentName": "KillAura",
+    "id": 17
+  },
+  {
+    "Boolean": false,
+    "Name": "PerfectHit",
+    "ParentName": "KillAura",
+    "id": 90
+  },
+  {
+    "Boolean": true,
+    "Name": "PHIntave",
+    "ParentName": "KillAura",
+    "id": 90
+  },
+  {
+    "Boolean": true,
+    "Name": "MoveFix",
+    "ParentName": "KillAura",
+    "id": 18
+  },
+  {
+    "Boolean": true,
+    "Name": "SilentMoveFix",
+    "ParentName": "KillAura",
+    "id": 19
+  },
+  {
+    "Boolean": true,
+    "Name": "BestHitVec",
+    "ParentName": "KillAura",
+    "id": 78
+  },
+  {
+    "Boolean": true,
+    "Name": "SmartAim",
+    "ParentName": "KillAura",
+    "id": 20
+  },
+  {
+    "Boolean": false,
+    "Name": "ThroughWalls",
+    "ParentName": "KillAura",
+    "id": 21
+  },
+  {
+    "Boolean": false,
+    "Name": "SlowDown",
+    "ParentName": "KillAura",
+    "id": 23
+  },
+  {
+    "Boolean": false,
+    "Name": "CoolDown",
+    "ParentName": "KillAura",
+    "id": 1338
+  },
+  {
+    "Boolean": true,
+    "Name": "PreHit",
+    "ParentName": "KillAura",
+    "id": 24
+  },
+  {
+    "Boolean": false,
+    "Name": "InInv",
+    "ParentName": "KillAura",
+    "id": 43
+  },
+  {
+    "Boolean": false,
+    "Name": "Randomize",
+    "ParentName": "KillAura",
+    "id": 44
+  },
+  {
+    "Boolean": false,
+    "Name": "Block",
+    "ParentName": "KillAura",
+    "id": 45
+  },
+  {
+    "Boolean": false,
+    "Name": "Multi",
+    "ParentName": "KillAura",
+    "id": 1337
+  },
+  {
+    "Boolean": false,
+    "Name": "Heuristics",
+    "ParentName": "KillAura",
+    "id": 46
+  },
+  {
+    "Boolean": false,
+    "Name": "HazeRange",
+    "ParentName": "KillAura",
+    "id": 4343905
+  },
+  {
+    "Value": 0.06,
+    "Name": "HazeAdd",
+    "ParentName": "KillAura",
+    "id": 4343906
+  },
+  {
+    "Value": 3.0,
+    "Name": "HazeMax",
+    "ParentName": "KillAura",
+    "id": 4343907
+  },
+  {
+    "Boolean": false,
+    "Name": "Intave",
+    "ParentName": "KillAura",
+    "id": 77
+  },
+  {
+    "Boolean": false,
+    "Name": "AdvancedRots",
+    "ParentName": "KillAura",
+    "id": 66
+  },
+  {
+    "SelectedOption": "Advanced",
+    "Name": "Mode",
+    "ParentName": "KillAura",
+    "id": 42
+  },
+  {
+    "Name": "Targets",
+    "ParentName": "KillAura",
+    "id": 31
+  },
+  {
+    "SelectedOption": "Distance",
+    "Name": "TargetSort",
+    "ParentName": "KillAura",
+    "id": 26
+  },
+  {
+    "SelectedOption": "Doubled",
+    "Name": "Randomize",
+    "ParentName": "KillAura",
+    "id": 27
+  },
+  {
+    "SelectedOption": "Legit",
+    "Name": "RangeMode",
+    "ParentName": "KillAura",
+    "id": 28
+  },
+  {
+    "SelectedOption": "Legit",
+    "Name": "AttackMode",
+    "ParentName": "KillAura",
+    "id": 30
+  },
+  {
+    "SelectedOption": "None",
+    "Name": "BlockMode",
+    "ParentName": "KillAura",
+    "id": 29
+  },
+  {
+    "Value": 9.0,
+    "Name": "StartBlock",
+    "ParentName": "KillAura",
+    "id": 38
+  },
+  {
+    "Value": 2.0,
+    "Name": "EndBlock",
+    "ParentName": "KillAura",
+    "id": 39
+  },
+  {
+    "Value": 8.0,
+    "Name": "Unblock",
+    "ParentName": "KillAura",
+    "id": 39
+  },
+  {
+    "Boolean": true,
+    "Name": "UnblockHit",
+    "ParentName": "KillAura",
+    "id": 40
+  },
+  {
+    "Boolean": false,
+    "Name": "UnblockHitOnly",
+    "ParentName": "KillAura",
+    "id": 41
+  },
+  {
+    "Boolean": true,
+    "Name": "DisableOnWorld",
+    "ParentName": "KillAura",
+    "id": 123
+  },
+  {
+    "SelectedOption": "Mineplex",
+    "Name": "Mode",
+    "ParentName": "AntiBot",
+    "id": 1
+  },
+  {
+    "Value": 1.0,
+    "Name": "TicksExisted",
+    "ParentName": "AntiBot",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "CheckTab",
+    "ParentName": "AntiBot",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Color",
+    "Name": "Modes",
+    "ParentName": "Teams",
+    "id": 1
+  },
+  {
+    "Value": 10.0,
+    "Name": "MaxHitRange",
+    "ParentName": "BackTrack",
+    "id": 6
+  },
+  {
+    "Value": 50000.0,
+    "Name": "Time",
+    "ParentName": "BackTrack",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "Esp",
+    "ParentName": "BackTrack",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "OnlyWhenNeed",
+    "ParentName": "BackTrack",
+    "id": 19
+  },
+  {
+    "Boolean": true,
+    "Name": "Player",
+    "ParentName": "BackTrack",
+    "id": 9
+  },
+  {
+    "Boolean": true,
+    "Name": "Mob",
+    "ParentName": "BackTrack",
+    "id": 10
+  },
+  {
+    "Boolean": true,
+    "Name": "Animal",
+    "ParentName": "BackTrack",
+    "id": 11
+  },
+  {
+    "Boolean": true,
+    "Name": "Villager",
+    "ParentName": "BackTrack",
+    "id": 12
+  },
+  {
+    "Boolean": true,
+    "Name": "ArmorStand",
+    "ParentName": "BackTrack",
+    "id": 13
+  },
+  {
+    "Name": "Targets",
+    "ParentName": "BackTrack",
+    "id": 31
+  },
+  {
+    "Boolean": true,
+    "Name": "OnlyKillAura",
+    "ParentName": "BackTrack",
+    "id": 18
+  },
+  {
+    "Value": 4.0,
+    "Name": "PreAimRange",
+    "ParentName": "BackTrack",
+    "id": 5
+  },
+  {
+    "Boolean": true,
+    "Name": "Velocity",
+    "ParentName": "BackTrack",
+    "id": 14
+  },
+  {
+    "Boolean": true,
+    "Name": "ExplosionVelocity",
+    "ParentName": "BackTrack",
+    "id": 15
+  },
+  {
+    "Boolean": true,
+    "Name": "TimeUpdate",
+    "ParentName": "BackTrack",
+    "id": 16
+  },
+  {
+    "Boolean": true,
+    "Name": "KeepAlive",
+    "ParentName": "BackTrack",
+    "id": 17
+  },
+  {
+    "Name": "PacketsToDelay",
+    "ParentName": "BackTrack",
+    "id": 32
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "BackTrack",
+    "id": 123
+  },
+  {
+    "Value": 13.0,
+    "Name": "Health",
+    "ParentName": "AutoSoup",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "Drop",
+    "ParentName": "AutoSoup",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "Fill",
+    "ParentName": "AutoSoup",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "AutoOpen",
+    "ParentName": "AutoSoup",
+    "id": 5
+  },
+  {
+    "Boolean": true,
+    "Name": "AutoClose",
+    "ParentName": "AutoSoup",
+    "id": 5
+  },
+  {
+    "Value": 50.0,
+    "Name": "MinDelay",
+    "ParentName": "AutoClicker",
+    "id": 1
+  },
+  {
+    "Value": 110.0,
+    "Name": "MaxDelay",
+    "ParentName": "AutoClicker",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "Smart",
+    "ParentName": "AutoClicker",
+    "id": 20
+  },
+  {
+    "Boolean": false,
+    "Name": "OnlyOnTarget",
+    "ParentName": "AutoClicker",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "Rotate",
+    "ParentName": "AntiFireBall",
+    "id": 8
+  },
+  {
+    "Value": 60.0,
+    "Name": "YawSpeed",
+    "ParentName": "AntiFireBall",
+    "id": 1
+  },
+  {
+    "Value": 60.0,
+    "Name": "PitchSpeed",
+    "ParentName": "AntiFireBall",
+    "id": 2
+  },
+  {
+    "Value": 4.0,
+    "Name": "PreAimRange",
+    "ParentName": "AntiFireBall",
+    "id": 3
+  },
+  {
+    "Value": 60.0,
+    "Name": "Delay",
+    "ParentName": "AntiFireBall",
+    "id": 9
+  },
+  {
+    "Value": 4.0,
+    "Name": "Range",
+    "ParentName": "AntiFireBall",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "MoveFix",
+    "ParentName": "AntiFireBall",
+    "id": 5
+  },
+  {
+    "Boolean": true,
+    "Name": "SlowDown",
+    "ParentName": "AntiFireBall",
+    "id": 6
+  },
+  {
+    "Value": 10.0,
+    "Name": "TicksExisted",
+    "ParentName": "AntiFireBall",
+    "id": 9
+  },
+  {
+    "SelectedOption": "Vestige",
+    "Name": "Mode",
+    "ParentName": "TickBase",
+    "id": 9284
+  },
+  {
+    "Value": 20.0,
+    "Name": "Ticks",
+    "ParentName": "TickBase",
+    "id": 2385
+  },
+  {
+    "Value": 4.83,
+    "Name": "FirstTimer",
+    "ParentName": "TickBase",
+    "id": 624
+  },
+  {
+    "Value": 0.21,
+    "Name": "NextTimer",
+    "ParentName": "TickBase",
+    "id": 73
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "TickBase",
+    "id": 123
+  },
+  {
+    "SelectedOption": "NoGround",
+    "Name": "Mode",
+    "ParentName": "Criticals",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "RGB",
+    "ParentName": "MotionGraph",
+    "id": 136
+  },
+  {
+    "Value": 180.0,
+    "Name": "Width",
+    "ParentName": "MotionGraph",
+    "id": 3167
+  },
+  {
+    "Value": 5.0,
+    "Name": "Height",
+    "ParentName": "MotionGraph",
+    "id": 2472
+  },
+  {
+    "Value": -188.0,
+    "Name": "YOffset",
+    "ParentName": "MotionGraph",
+    "id": 2472
+  },
+  {
+    "SelectedOption": "Legit",
+    "Name": "Modes",
+    "ParentName": "MoreKB",
+    "id": 1
+  },
+  {
+    "Value": 3.0,
+    "Name": "Packets",
+    "ParentName": "MoreKB",
+    "id": 42069
+  },
+  {
+    "Boolean": true,
+    "Name": "Intelligent",
+    "ParentName": "MoreKB",
+    "id": 1
+  },
+  {
+    "Red": 0,
+    "Green": 0,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "CustomColor",
+    "ParentName": "ArrayList",
+    "id": 1
+  },
+  {
+    "SelectedOption": "New",
+    "Name": "Mode",
+    "ParentName": "ArrayList",
+    "id": 23638
+  },
+  {
+    "SelectedOption": "Right",
+    "Name": "Side",
+    "ParentName": "ArrayList",
+    "id": 3
+  },
+  {
+    "SelectedOption": "Length",
+    "Name": "Sorting",
+    "ParentName": "ArrayList",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "RandomColor",
+    "ParentName": "ArrayList",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "Rainbow",
+    "ParentName": "ArrayList",
+    "id": 11
+  },
+  {
+    "Value": 55.0,
+    "Name": "RainbowSpeed",
+    "ParentName": "ArrayList",
+    "id": 12
+  },
+  {
+    "Boolean": false,
+    "Name": "ToggleSound",
+    "ParentName": "ArrayList",
+    "id": 9
+  },
+  {
+    "Boolean": false,
+    "Name": "Suffix",
+    "ParentName": "ArrayList",
+    "id": 13
+  },
+  {
+    "Boolean": true,
+    "Name": "Backgound",
+    "ParentName": "ArrayList",
+    "id": 6
+  },
+  {
+    "Red": 255,
+    "Green": 255,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "VegaColor1",
+    "ParentName": "ArrayList",
+    "id": 7
+  },
+  {
+    "Red": 0,
+    "Green": 0,
+    "Blue": 0,
+    "Alpha": 255,
+    "Name": "VegaColor2",
+    "ParentName": "ArrayList",
+    "id": 7
+  },
+  {
+    "Red": 0,
+    "Green": 0,
+    "Blue": 0,
+    "Alpha": 100,
+    "Name": "BackGroundColor",
+    "ParentName": "ArrayList",
+    "id": 7
+  },
+  {
+    "SelectedOption": "Verdana",
+    "Name": "Font",
+    "ParentName": "ArrayList",
+    "id": 23
+  },
+  {
+    "Value": 0.0,
+    "Name": "PosX",
+    "ParentName": "ArrayList",
+    "id": 11
+  },
+  {
+    "Value": 0.0,
+    "Name": "PosY",
+    "ParentName": "ArrayList",
+    "id": 111
+  },
+  {
+    "Value": 0.0,
+    "Name": "PosX2",
+    "ParentName": "ArrayList",
+    "id": 1111
+  },
+  {
+    "Value": 0.0,
+    "Name": "PosY2",
+    "ParentName": "ArrayList",
+    "id": 11111
+  },
+  {
+    "SelectedOption": "Random",
+    "Name": "Sorting",
+    "ParentName": "ClickGui",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Default",
+    "Name": "Mode",
+    "ParentName": "ClickGui",
+    "id": 25
+  },
+  {
+    "Value": 0.0,
+    "Name": "Explosion",
+    "ParentName": "AttackEffects",
+    "id": 1
+  },
+  {
+    "Value": 0.0,
+    "Name": "WaterSplash",
+    "ParentName": "AttackEffects",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "WaterWake",
+    "ParentName": "AttackEffects",
+    "id": 3
+  },
+  {
+    "Value": 0.0,
+    "Name": "WaterDrop",
+    "ParentName": "AttackEffects",
+    "id": 4
+  },
+  {
+    "Value": 0.0,
+    "Name": "SuspDepth",
+    "ParentName": "AttackEffects",
+    "id": 5
+  },
+  {
+    "Value": 0.0,
+    "Name": "Crit",
+    "ParentName": "AttackEffects",
+    "id": 6
+  },
+  {
+    "Value": 0.0,
+    "Name": "CtitMagic",
+    "ParentName": "AttackEffects",
+    "id": 7
+  },
+  {
+    "Value": 0.0,
+    "Name": "SmokeNormal",
+    "ParentName": "AttackEffects",
+    "id": 8
+  },
+  {
+    "Value": 0.0,
+    "Name": "SmokeLarge",
+    "ParentName": "AttackEffects",
+    "id": 9
+  },
+  {
+    "Value": 0.0,
+    "Name": "SpellInstant",
+    "ParentName": "AttackEffects",
+    "id": 10
+  },
+  {
+    "Value": 1.0,
+    "Name": "SpellMob",
+    "ParentName": "AttackEffects",
+    "id": 11
+  },
+  {
+    "Value": 0.0,
+    "Name": "SpellMAmbient",
+    "ParentName": "AttackEffects",
+    "id": 12
+  },
+  {
+    "Value": 0.0,
+    "Name": "SpellWitch",
+    "ParentName": "AttackEffects",
+    "id": 13
+  },
+  {
+    "Value": 0.0,
+    "Name": "DripWater",
+    "ParentName": "AttackEffects",
+    "id": 14
+  },
+  {
+    "Value": 0.0,
+    "Name": "DripLava",
+    "ParentName": "AttackEffects",
+    "id": 15
+  },
+  {
+    "Value": 0.0,
+    "Name": "VillagerAngry",
+    "ParentName": "AttackEffects",
+    "id": 16
+  },
+  {
+    "Value": 0.0,
+    "Name": "VillagerHappy",
+    "ParentName": "AttackEffects",
+    "id": 17
+  },
+  {
+    "Value": 0.0,
+    "Name": "Note",
+    "ParentName": "AttackEffects",
+    "id": 18
+  },
+  {
+    "Value": 0.0,
+    "Name": "Portal",
+    "ParentName": "AttackEffects",
+    "id": 19
+  },
+  {
+    "Value": 0.0,
+    "Name": "Flame",
+    "ParentName": "AttackEffects",
+    "id": 20
+  },
+  {
+    "Value": 0.0,
+    "Name": "Lava",
+    "ParentName": "AttackEffects",
+    "id": 21
+  },
+  {
+    "Value": 0.0,
+    "Name": "RedStone",
+    "ParentName": "AttackEffects",
+    "id": 22
+  },
+  {
+    "Value": 0.0,
+    "Name": "SnowShovel",
+    "ParentName": "AttackEffects",
+    "id": 23
+  },
+  {
+    "Value": 0.0,
+    "Name": "Slime",
+    "ParentName": "AttackEffects",
+    "id": 24
+  },
+  {
+    "Value": 0.0,
+    "Name": "Heart",
+    "ParentName": "AttackEffects",
+    "id": 25
+  },
+  {
+    "Value": 0.0,
+    "Name": "Barrier",
+    "ParentName": "AttackEffects",
+    "id": 26
+  },
+  {
+    "Value": 0.0,
+    "Name": "FireworkSpark",
+    "ParentName": "AttackEffects",
+    "id": 27
+  },
+  {
+    "SelectedOption": "Fake2D",
+    "Name": "Mode",
+    "ParentName": "ESP",
+    "id": 7
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 65,
+    "Name": "Color",
+    "ParentName": "ESP",
+    "id": 2
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 65,
+    "Name": "Color",
+    "ParentName": "ESP",
+    "id": 9
+  },
+  {
+    "Boolean": true,
+    "Name": "Rainbow",
+    "ParentName": "ESP",
+    "id": 11
+  },
+  {
+    "Value": 1000.0,
+    "Name": "RainbowSpeed",
+    "ParentName": "ESP",
+    "id": 12
+  },
+  {
+    "Value": 80.0,
+    "Name": "RainbowAlpha",
+    "ParentName": "ESP",
+    "id": 13
+  },
+  {
+    "Boolean": false,
+    "Name": "TeamColor",
+    "ParentName": "ESP",
+    "id": 10
+  },
+  {
+    "Boolean": true,
+    "Name": "HitColor",
+    "ParentName": "ESP",
+    "id": 15
+  },
+  {
+    "Red": 255,
+    "Green": 0,
+    "Blue": 0,
+    "Alpha": 255,
+    "Name": "HitColor",
+    "ParentName": "ESP",
+    "id": 14
+  },
+  {
+    "Boolean": true,
+    "Name": "Player",
+    "ParentName": "ESP",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "Mob",
+    "ParentName": "ESP",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "Animal",
+    "ParentName": "ESP",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "Invisible",
+    "ParentName": "ESP",
+    "id": 6
+  },
+  {
+    "Value": 6.0,
+    "Name": "LineWidth",
+    "ParentName": "ESP",
+    "id": 1
+  },
+  {
+    "Name": "Entities",
+    "ParentName": "ESP",
+    "id": 8
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 65,
+    "Name": "Color",
+    "ParentName": "StorageESP",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Box",
+    "Name": "Mode",
+    "ParentName": "StorageESP",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "Rainbow",
+    "ParentName": "StorageESP",
+    "id": 11
+  },
+  {
+    "Value": 55.0,
+    "Name": "RainbowSpeed",
+    "ParentName": "StorageESP",
+    "id": 12
+  },
+  {
+    "Value": 80.0,
+    "Name": "RainbowAlpha",
+    "ParentName": "StorageESP",
+    "id": 13
+  },
+  {
+    "Value": 6.0,
+    "Name": "LineWidth",
+    "ParentName": "StorageESP",
+    "id": 1
+  },
+  {
+    "Value": 6.0,
+    "Name": "MaxDistance",
+    "ParentName": "StorageESP",
+    "id": 4
+  },
+  {
+    "SelectedOption": "1.7",
+    "Name": "Animation",
+    "ParentName": "BlockAnimation",
+    "id": 69
+  },
+  {
+    "Value": 0.0,
+    "Name": "Height",
+    "ParentName": "BlockAnimation",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "FakeBlock",
+    "ParentName": "BlockAnimation",
+    "id": 3
+  },
+  {
+    "Value": 0.6,
+    "Name": "Speed",
+    "ParentName": "BlockAnimation",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "Time",
+    "ParentName": "Protector",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Custom",
+    "Name": "Mode",
+    "ParentName": "NameTags",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Custom",
+    "Name": "ColorMode",
+    "ParentName": "NameTags",
+    "id": 235246
+  },
+  {
+    "Red": 255,
+    "Green": 255,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "CustomColor",
+    "ParentName": "NameTags",
+    "id": 21553
+  },
+  {
+    "Boolean": false,
+    "Name": "Background",
+    "ParentName": "NameTags",
+    "id": 2153
+  },
+  {
+    "Value": 1.2,
+    "Name": "Scale",
+    "ParentName": "NameTags",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "Height",
+    "ParentName": "NameTags",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "Armor",
+    "ParentName": "NameTags",
+    "id": 3
+  },
+  {
+    "SelectedOption": "Left",
+    "Name": "Side",
+    "ParentName": "HUD",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Old",
+    "Name": "Mode",
+    "ParentName": "HUD",
+    "id": 4
+  },
+  {
+    "Value": 0.6,
+    "Name": "Size",
+    "ParentName": "HUD",
+    "id": 8
+  },
+  {
+    "Boolean": false,
+    "Name": "Hotbar",
+    "ParentName": "HUD",
+    "id": 5
+  },
+  {
+    "Boolean": true,
+    "Name": "Armor",
+    "ParentName": "HUD",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "TargetHud",
+    "ParentName": "HUD",
+    "id": 7
+  },
+  {
+    "SelectedOption": "Basic",
+    "Name": "TargetHud-Mode",
+    "ParentName": "HUD",
+    "id": 69420
+  },
+  {
+    "Boolean": false,
+    "Name": "BackGround",
+    "ParentName": "HUD",
+    "id": 2
+  },
+  {
+    "Red": 0,
+    "Green": 0,
+    "Blue": 0,
+    "Alpha": 100,
+    "Name": "BackGroundColor",
+    "ParentName": "HUD",
+    "id": 3
+  },
+  {
+    "Red": 255,
+    "Green": 255,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "HUD",
+    "id": 6
+  },
+  {
+    "Value": 533.0,
+    "Name": "Targethud X",
+    "ParentName": "HUD",
+    "id": 12312124
+  },
+  {
+    "Value": 311.0,
+    "Name": "Targethud Y",
+    "ParentName": "HUD",
+    "id": 12312123
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 65,
+    "Name": "Color",
+    "ParentName": "Tracers",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Feet",
+    "Name": "Mode",
+    "ParentName": "Tracers",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "StaticColor",
+    "ParentName": "Tracers",
+    "id": 9
+  },
+  {
+    "Boolean": false,
+    "Name": "Rainbow",
+    "ParentName": "Tracers",
+    "id": 11
+  },
+  {
+    "Value": 55.0,
+    "Name": "RainbowSpeed",
+    "ParentName": "Tracers",
+    "id": 12
+  },
+  {
+    "Boolean": true,
+    "Name": "Player",
+    "ParentName": "Tracers",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "Mob",
+    "ParentName": "Tracers",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "Animal",
+    "ParentName": "Tracers",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "Invisible",
+    "ParentName": "Tracers",
+    "id": 6
+  },
+  {
+    "Value": 6.0,
+    "Name": "LineWidth",
+    "ParentName": "Tracers",
+    "id": 1
+  },
+  {
+    "Name": "Entities",
+    "ParentName": "Tracers",
+    "id": 8
+  },
+  {
+    "SelectedOption": "Vanilla",
+    "Name": "Mode",
+    "ParentName": "ItemESP",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "Remove",
+    "ParentName": "Scoreboard",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "Stick",
+    "ParentName": "Scoreboard",
+    "id": 4
+  },
+  {
+    "Value": 100.0,
+    "Name": "PositionX",
+    "ParentName": "Scoreboard",
+    "id": 2
+  },
+  {
+    "Value": 60.0,
+    "Name": "PositionY",
+    "ParentName": "Scoreboard",
+    "id": 3
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 65,
+    "Name": "Color",
+    "ParentName": "BlockESP",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "Rainbow",
+    "ParentName": "BlockESP",
+    "id": 11
+  },
+  {
+    "Value": 55.0,
+    "Name": "RainbowSpeed",
+    "ParentName": "BlockESP",
+    "id": 12
+  },
+  {
+    "Value": 80.0,
+    "Name": "RainbowAlpha",
+    "ParentName": "BlockESP",
+    "id": 13
+  },
+  {
+    "Value": 6.0,
+    "Name": "LineWidth",
+    "ParentName": "BlockESP",
+    "id": 1
+  },
+  {
+    "Value": 50.0,
+    "Name": "Distance",
+    "ParentName": "BlockESP",
+    "id": 3
+  },
+  {
+    "Value": 26.0,
+    "Name": "ID",
+    "ParentName": "BlockESP",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "FeetLine",
+    "ParentName": "Line",
+    "id": 0
+  },
+  {
+    "Red": 77,
+    "Green": 0,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "Line",
+    "id": 1
+  },
+  {
+    "Value": 2.4,
+    "Name": "LineWidth",
+    "ParentName": "Line",
+    "id": 2
+  },
+  {
+    "Value": 500.0,
+    "Name": "LineTime",
+    "ParentName": "Line",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "AuraLine",
+    "ParentName": "Line",
+    "id": 4
+  },
+  {
+    "Red": 77,
+    "Green": 0,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "AuraColor",
+    "ParentName": "Line",
+    "id": 5
+  },
+  {
+    "Value": 2.0,
+    "Name": "AuraLineWidth",
+    "ParentName": "Line",
+    "id": 6
+  },
+  {
+    "Value": 3000.0,
+    "Name": "AuraLineTime",
+    "ParentName": "Line",
+    "id": 7
+  },
+  {
+    "Value": 1900.0,
+    "Name": "Time",
+    "ParentName": "Ambiance",
+    "id": 1
+  },
+  {
+    "Value": 0.0,
+    "Name": "TimeSpeed",
+    "ParentName": "Ambiance",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "Rain",
+    "ParentName": "Ambiance",
+    "id": 3
+  },
+  {
+    "Value": 0.0,
+    "Name": "Thunder",
+    "ParentName": "Ambiance",
+    "id": 4
+  },
+  {
+    "Red": 94,
+    "Green": 0,
+    "Blue": 255,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "Crosshair",
+    "id": 4
+  },
+  {
+    "Value": 4.0,
+    "Name": "Length",
+    "ParentName": "Crosshair",
+    "id": 1
+  },
+  {
+    "Value": 1.3,
+    "Name": "Width",
+    "ParentName": "Crosshair",
+    "id": 2
+  },
+  {
+    "Value": 1.3,
+    "Name": "Margin",
+    "ParentName": "Crosshair",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "Dot",
+    "ParentName": "Crosshair",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "T-Style",
+    "ParentName": "Crosshair",
+    "id": 6
+  },
+  {
+    "Boolean": false,
+    "Name": "Rainbow",
+    "ParentName": "Crosshair",
+    "id": 7
+  },
+  {
+    "Value": 55.0,
+    "Name": "RainbowSpeed",
+    "ParentName": "Crosshair",
+    "id": 8
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "Trajectories",
+    "id": 1
+  },
+  {
+    "Value": 6.0,
+    "Name": "LineWidth",
+    "ParentName": "Trajectories",
+    "id": 2
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "Projectiles",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "CalculateColor",
+    "ParentName": "Projectiles",
+    "id": 1
+  },
+  {
+    "Value": 6.0,
+    "Name": "LineWidth",
+    "ParentName": "Projectiles",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "CustomColor",
+    "ParentName": "CustomGlint",
+    "id": 4
+  },
+  {
+    "Red": 128,
+    "Green": 64,
+    "Blue": 204,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "CustomGlint",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "Remove",
+    "ParentName": "CustomGlint",
+    "id": 2
+  },
+  {
+    "Value": 1.0,
+    "Name": "Speed",
+    "ParentName": "CustomGlint",
+    "id": 3
+  },
+  {
+    "Value": 0.13,
+    "Name": "X",
+    "ParentName": "CustomItemPos",
+    "id": 1
+  },
+  {
+    "Value": 0.13,
+    "Name": "Y",
+    "ParentName": "CustomItemPos",
+    "id": 2
+  },
+  {
+    "Value": 0.04,
+    "Name": "Z",
+    "ParentName": "CustomItemPos",
+    "id": 3
+  },
+  {
+    "Value": -0.27,
+    "Name": "BlockX",
+    "ParentName": "CustomItemPos",
+    "id": 5
+  },
+  {
+    "Value": -0.04,
+    "Name": "BlockY",
+    "ParentName": "CustomItemPos",
+    "id": 6
+  },
+  {
+    "Value": 0.0,
+    "Name": "BlockZ",
+    "ParentName": "CustomItemPos",
+    "id": 7
+  },
+  {
+    "Value": 0.2,
+    "Name": "Scale",
+    "ParentName": "CustomItemPos",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "AllDirection",
+    "ParentName": "Sprint",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Solid",
+    "Name": "Mode",
+    "ParentName": "Jesus",
+    "id": 2
+  },
+  {
+    "Value": 1.0,
+    "Name": "Speed",
+    "ParentName": "Jesus",
+    "id": 1
+  },
+  {
+    "Value": 0.6,
+    "Name": "Motion",
+    "ParentName": "Jesus",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "OnlyMove",
+    "ParentName": "Jesus",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "StartSlow",
+    "ParentName": "NoSlow",
+    "id": 16
+  },
+  {
+    "Boolean": false,
+    "Name": "Slowdown",
+    "ParentName": "NoSlow",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "Sprint",
+    "ParentName": "NoSlow",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "Switch",
+    "ParentName": "NoSlow",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "Toggle",
+    "ParentName": "NoSlow",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "Bug",
+    "ParentName": "NoSlow",
+    "id": 111
+  },
+  {
+    "Boolean": false,
+    "Name": "Timer",
+    "ParentName": "NoSlow",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "Slowdown",
+    "ParentName": "NoSlow",
+    "id": 6
+  },
+  {
+    "Boolean": false,
+    "Name": "Sprint",
+    "ParentName": "NoSlow",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "Switch",
+    "ParentName": "NoSlow",
+    "id": 8
+  },
+  {
+    "Boolean": false,
+    "Name": "Toggle",
+    "ParentName": "NoSlow",
+    "id": 9
+  },
+  {
+    "Boolean": false,
+    "Name": "Timer",
+    "ParentName": "NoSlow",
+    "id": 10
+  },
+  {
+    "Boolean": false,
+    "Name": "Slowdown",
+    "ParentName": "NoSlow",
+    "id": 11
+  },
+  {
+    "Boolean": true,
+    "Name": "Sprint",
+    "ParentName": "NoSlow",
+    "id": 12
+  },
+  {
+    "Boolean": false,
+    "Name": "Switch",
+    "ParentName": "NoSlow",
+    "id": 13
+  },
+  {
+    "Boolean": false,
+    "Name": "Toggle",
+    "ParentName": "NoSlow",
+    "id": 14
+  },
+  {
+    "Boolean": true,
+    "Name": "Bug",
+    "ParentName": "NoSlow",
+    "id": 1111
+  },
+  {
+    "Boolean": false,
+    "Name": "Timer",
+    "ParentName": "NoSlow",
+    "id": 15
+  },
+  {
+    "Name": "Sword",
+    "ParentName": "NoSlow",
+    "id": 25
+  },
+  {
+    "Name": "Bow",
+    "ParentName": "NoSlow",
+    "id": 26
+  },
+  {
+    "Name": "Rest",
+    "ParentName": "NoSlow",
+    "id": 27
+  },
+  {
+    "Value": 1.0,
+    "Name": "SwordForward",
+    "ParentName": "NoSlow",
+    "id": 16
+  },
+  {
+    "Value": 1.0,
+    "Name": "SwordStrafe",
+    "ParentName": "NoSlow",
+    "id": 17
+  },
+  {
+    "Value": 1.0,
+    "Name": "BowForward",
+    "ParentName": "NoSlow",
+    "id": 18
+  },
+  {
+    "Value": 1.0,
+    "Name": "BowStrafe",
+    "ParentName": "NoSlow",
+    "id": 19
+  },
+  {
+    "Value": 1.0,
+    "Name": "RestForward",
+    "ParentName": "NoSlow",
+    "id": 20
+  },
+  {
+    "Value": 1.0,
+    "Name": "RestStrafe",
+    "ParentName": "NoSlow",
+    "id": 21
+  },
+  {
+    "Value": 0.2,
+    "Name": "TimerSword",
+    "ParentName": "NoSlow",
+    "id": 22
+  },
+  {
+    "Value": 0.2,
+    "Name": "TimerBow",
+    "ParentName": "NoSlow",
+    "id": 23
+  },
+  {
+    "Value": 0.2,
+    "Name": "TimerRest",
+    "ParentName": "NoSlow",
+    "id": 24
+  },
+  {
+    "SelectedOption": "LegitHop",
+    "Name": "Mode",
+    "ParentName": "Speed",
+    "id": 1
+  },
+  {
+    "Value": 3.0,
+    "Name": "Speed",
+    "ParentName": "Speed",
+    "id": 2
+  },
+  {
+    "Value": 1.0,
+    "Name": "Height",
+    "ParentName": "Speed",
+    "id": 3
+  },
+  {
+    "Value": 1.0,
+    "Name": "DMGSpeed",
+    "ParentName": "Speed",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "DamageBoost",
+    "ParentName": "Speed",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "Strafe",
+    "ParentName": "Speed",
+    "id": 6
+  },
+  {
+    "Value": 1.31,
+    "Name": "Time",
+    "ParentName": "Timer",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Normal",
+    "Name": "Mode",
+    "ParentName": "Strafe",
+    "id": 0
+  },
+  {
+    "Boolean": false,
+    "Name": "WhileKB",
+    "ParentName": "Strafe",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "OnlyOnGround",
+    "ParentName": "Strafe",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "AutoDisable",
+    "ParentName": "Blink",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "Pulse",
+    "ParentName": "Blink",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "NoAura",
+    "ParentName": "Blink",
+    "id": 137248
+  },
+  {
+    "Boolean": false,
+    "Name": "FakePlayer",
+    "ParentName": "Blink",
+    "id": 23627
+  },
+  {
+    "SelectedOption": "C0F",
+    "Name": "Mode",
+    "ParentName": "Blink",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "Blink",
+    "id": 123
+  },
+  {
+    "Boolean": true,
+    "Name": "GrimFly",
+    "ParentName": "TestModule",
+    "id": 69420420
+  },
+  {
+    "Boolean": true,
+    "Name": "FlyPredict",
+    "ParentName": "TestModule",
+    "id": 208736
+  },
+  {
+    "Red": 21,
+    "Green": 121,
+    "Blue": 230,
+    "Alpha": 255,
+    "Name": "Color",
+    "ParentName": "TestModule",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "Blur",
+    "ParentName": "TestModule",
+    "id": 1337
+  },
+  {
+    "SelectedOption": "FurtherTeleport",
+    "Name": "Mode",
+    "ParentName": "Fly",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "AutoJump",
+    "ParentName": "Fly",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "OnGroundPacket",
+    "ParentName": "Fly",
+    "id": 5
+  },
+  {
+    "Value": 0.2,
+    "Name": "Speed",
+    "ParentName": "Fly",
+    "id": 3
+  },
+  {
+    "Value": 1.0,
+    "Name": "Speed",
+    "ParentName": "Fly",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "Fly",
+    "id": 123
+  },
+  {
+    "Value": 15.0,
+    "Name": "MaxDistance",
+    "ParentName": "BugUp",
+    "id": 2
+  },
+  {
+    "SelectedOption": "OnGround",
+    "Name": "Mode",
+    "ParentName": "BugUp",
+    "id": 1
+  },
+  {
+    "Value": 2.5,
+    "Name": "Radius",
+    "ParentName": "TargetStrafe",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "KillAuraTarget",
+    "ParentName": "TargetStrafe",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "AutoStrafe",
+    "ParentName": "TargetStrafe",
+    "id": 3
+  },
+  {
+    "SelectedOption": "Vulcan",
+    "Name": "Mode",
+    "ParentName": "FastLadder",
+    "id": 215
+  },
+  {
+    "Value": 0.4,
+    "Name": "MotionY",
+    "ParentName": "FastLadder",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "StopOnEnd",
+    "ParentName": "FastLadder",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Jump",
+    "Name": "Mode",
+    "ParentName": "Spider",
+    "id": 4
+  },
+  {
+    "Value": -0.2,
+    "Name": "JumpMotion",
+    "ParentName": "Spider",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "CustomMotion",
+    "ParentName": "Spider",
+    "id": 5
+  },
+  {
+    "Value": 0.3,
+    "Name": "Motion",
+    "ParentName": "Spider",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "GroundPacket",
+    "ParentName": "Spider",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Intave",
+    "Name": "Mode",
+    "ParentName": "NoWeb",
+    "id": 1
+  },
+  {
+    "Value": 1.0,
+    "Name": "Height",
+    "ParentName": "Step",
+    "id": 2
+  },
+  {
+    "Value": 400.0,
+    "Name": "Delay",
+    "ParentName": "Step",
+    "id": 3
+  },
+  {
+    "Value": 0.3,
+    "Name": "Timer",
+    "ParentName": "Step",
+    "id": 4
+  },
+  {
+    "SelectedOption": "Vanilla",
+    "Name": "Modes",
+    "ParentName": "Step",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Vanilla",
+    "Name": "Mode",
+    "ParentName": "LongJump",
+    "id": 6932235
+  },
+  {
+    "Value": 1.05,
+    "Name": "Speed",
+    "ParentName": "LongJump",
+    "id": 44
+  },
+  {
+    "Boolean": false,
+    "Name": "InAir",
+    "ParentName": "SafeWalk",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "Minemen",
+    "ParentName": "SafeWalk",
+    "id": 2
+  },
+  {
+    "SelectedOption": "OnGround",
+    "Name": "Mode",
+    "ParentName": "NoFall",
+    "id": 1
+  },
+  {
+    "Value": 2.0,
+    "Name": "MinFallDist",
+    "ParentName": "NoFall",
+    "id": 2
+  },
+  {
+    "Value": 6.0,
+    "Name": "MinFallDist",
+    "ParentName": "NoFall",
+    "id": 3
+  },
+  {
+    "Value": 8.0,
+    "Name": "AimRange",
+    "ParentName": "NoFall",
+    "id": 7
+  },
+  {
+    "Value": 180.0,
+    "Name": "YawSpeed",
+    "ParentName": "NoFall",
+    "id": 5
+  },
+  {
+    "Value": 180.0,
+    "Name": "PitchSpeed",
+    "ParentName": "NoFall",
+    "id": 6
+  },
+  {
+    "Value": 110.0,
+    "Name": "Delay",
+    "ParentName": "NoFall",
+    "id": 8
+  },
+  {
+    "SelectedOption": "SpoofInv",
+    "Name": "Mode",
+    "ParentName": "AutoArmor",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "NoMove",
+    "ParentName": "AutoArmor",
+    "id": 8
+  },
+  {
+    "Boolean": true,
+    "Name": "InteractCheck",
+    "ParentName": "AutoArmor",
+    "id": 9
+  },
+  {
+    "Value": 44.0,
+    "Name": "StartDelay",
+    "ParentName": "AutoArmor",
+    "id": 2
+  },
+  {
+    "Value": 44.0,
+    "Name": "Delay",
+    "ParentName": "AutoArmor",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "Hotbar",
+    "ParentName": "AutoArmor",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "GommeQSG",
+    "ParentName": "AutoArmor",
+    "id": 5
+  },
+  {
+    "Value": 200.0,
+    "Name": "HStartDelay",
+    "ParentName": "AutoArmor",
+    "id": 6
+  },
+  {
+    "Value": 100.0,
+    "Name": "HotbarDelay",
+    "ParentName": "AutoArmor",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "DisableOnWorld",
+    "ParentName": "AutoArmor",
+    "id": 123
+  },
+  {
+    "SelectedOption": "SpoofInv",
+    "Name": "Mode",
+    "ParentName": "InvCleaner",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "NoMove",
+    "ParentName": "InvCleaner",
+    "id": 5
+  },
+  {
+    "Boolean": true,
+    "Name": "InteractCheck",
+    "ParentName": "InvCleaner",
+    "id": 6
+  },
+  {
+    "Value": 22.0,
+    "Name": "Delay",
+    "ParentName": "InvCleaner",
+    "id": 2
+  },
+  {
+    "Value": 11.0,
+    "Name": "StartDelay",
+    "ParentName": "InvCleaner",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "Sort",
+    "ParentName": "InvCleaner",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "Sand",
+    "ParentName": "InvCleaner",
+    "id": 124
+  },
+  {
+    "Boolean": false,
+    "Name": "Gravel",
+    "ParentName": "InvCleaner",
+    "id": 124
+  },
+  {
+    "Boolean": true,
+    "Name": "SoulSand",
+    "ParentName": "InvCleaner",
+    "id": 124
+  },
+  {
+    "Boolean": false,
+    "Name": "TNT",
+    "ParentName": "InvCleaner",
+    "id": 124
+  },
+  {
+    "Boolean": false,
+    "Name": "Cobweb",
+    "ParentName": "InvCleaner",
+    "id": 124
+  },
+  {
+    "Boolean": false,
+    "Name": "Rails",
+    "ParentName": "InvCleaner",
+    "id": 124
+  },
+  {
+    "Name": "BlacklistedBlocks",
+    "ParentName": "InvCleaner",
+    "id": 12415
+  },
+  {
+    "Boolean": true,
+    "Name": "DisableOnWorld",
+    "ParentName": "InvCleaner",
+    "id": 123
+  },
+  {
+    "Value": 55.0,
+    "Name": "StartDelay",
+    "ParentName": "ChestStealer",
+    "id": 1
+  },
+  {
+    "Value": 22.0,
+    "Name": "Delay",
+    "ParentName": "ChestStealer",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "Random",
+    "ParentName": "ChestStealer",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "Intelligent",
+    "ParentName": "ChestStealer",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "AutoClose",
+    "ParentName": "ChestStealer",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "SpamClick",
+    "ParentName": "ChestStealer",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "CheckName",
+    "ParentName": "ChestStealer",
+    "id": 32859
+  },
+  {
+    "Boolean": true,
+    "Name": "DisableOnWorld",
+    "ParentName": "ChestStealer",
+    "id": 123
+  },
+  {
+    "SelectedOption": "Xenza",
+    "Name": "Mode",
+    "ParentName": "Notifications",
+    "id": 1
+  },
+  {
+    "SelectedOption": "Only Tools",
+    "Name": "Mode",
+    "ParentName": "AutoTool",
+    "id": 1
+  },
+  {
+    "Value": 500.0,
+    "Name": "StartDelay",
+    "ParentName": "FakeLaag",
+    "id": 1
+  },
+  {
+    "Value": 10.0,
+    "Name": "LagPackets",
+    "ParentName": "FakeLaag",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "OnlyMove",
+    "ParentName": "FakeLaag",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "Combat",
+    "ParentName": "FakeLaag",
+    "id": 4
+  },
+  {
+    "SelectedOption": "Vulcan",
+    "Name": "Mode",
+    "ParentName": "Teleport",
+    "id": 0
+  },
+  {
+    "Boolean": true,
+    "Name": "AutoDisable",
+    "ParentName": "Teleport",
+    "id": 1
+  },
+  {
+    "Value": 20.0,
+    "Name": "Health",
+    "ParentName": "Regen",
+    "id": 2
+  },
+  {
+    "Value": 5.0,
+    "Name": "MinHunger",
+    "ParentName": "Regen",
+    "id": 1
+  },
+  {
+    "Value": 100.0,
+    "Name": "Packets",
+    "ParentName": "Regen",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "GroundCheck",
+    "ParentName": "Regen",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "Instant",
+    "ParentName": "FastBreak",
+    "id": 1
+  },
+  {
+    "Value": 2.0,
+    "Name": "Multiplier",
+    "ParentName": "FastBreak",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Bed",
+    "Name": "Block",
+    "ParentName": "Fucker",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Break",
+    "Name": "Action",
+    "ParentName": "Fucker",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "ThroughWall",
+    "ParentName": "Fucker",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "Instant",
+    "ParentName": "Fucker",
+    "id": 10
+  },
+  {
+    "Boolean": true,
+    "Name": "MoveFix",
+    "ParentName": "Fucker",
+    "id": 9
+  },
+  {
+    "Boolean": true,
+    "Name": "FriendMyBlock",
+    "ParentName": "Fucker",
+    "id": 11
+  },
+  {
+    "Value": 26.0,
+    "Name": "CustomID",
+    "ParentName": "Fucker",
+    "id": 4
+  },
+  {
+    "Value": 180.0,
+    "Name": "YawSpeed",
+    "ParentName": "Fucker",
+    "id": 5
+  },
+  {
+    "Value": 180.0,
+    "Name": "PitchSpeed",
+    "ParentName": "Fucker",
+    "id": 6
+  },
+  {
+    "Value": 500.0,
+    "Name": "Delay",
+    "ParentName": "Fucker",
+    "id": 7
+  },
+  {
+    "Value": 4.5,
+    "Name": "Range",
+    "ParentName": "Fucker",
+    "id": 8
+  },
+  {
+    "Value": 50.0,
+    "Name": "Delay",
+    "ParentName": "FastPlace",
+    "id": 1
+  },
+  {
+    "Value": 0.0,
+    "Name": "YawSpeed",
+    "ParentName": "Scaffold",
+    "id": 2
+  },
+  {
+    "Value": 0.0,
+    "Name": "PitchSpeed",
+    "ParentName": "Scaffold",
+    "id": 3
+  },
+  {
+    "Value": 0.0,
+    "Name": "Expand",
+    "ParentName": "Scaffold",
+    "id": 136
+  },
+  {
+    "Boolean": true,
+    "Name": "Snap",
+    "ParentName": "Scaffold",
+    "id": 52789782
+  },
+  {
+    "Boolean": true,
+    "Name": "ResetRotation",
+    "ParentName": "Scaffold",
+    "id": 52789782
+  },
+  {
+    "Boolean": false,
+    "Name": "NoDynamicFov",
+    "ParentName": "Scaffold",
+    "id": 2643
+  },
+  {
+    "Boolean": true,
+    "Name": "RayCast",
+    "ParentName": "Scaffold",
+    "id": 6
+  },
+  {
+    "Boolean": false,
+    "Name": "PlayerYaw",
+    "ParentName": "Scaffold",
+    "id": 9
+  },
+  {
+    "Boolean": false,
+    "Name": "BlockSafe",
+    "ParentName": "Scaffold",
+    "id": 25
+  },
+  {
+    "Boolean": true,
+    "Name": "MoonWalk",
+    "ParentName": "Scaffold",
+    "id": 21
+  },
+  {
+    "Boolean": false,
+    "Name": "GodBridge",
+    "ParentName": "Scaffold",
+    "id": 6234
+  },
+  {
+    "Boolean": false,
+    "Name": "LatestRotate",
+    "ParentName": "Scaffold",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "LatestPlace",
+    "ParentName": "Scaffold",
+    "id": 24
+  },
+  {
+    "Boolean": false,
+    "Name": "Predict",
+    "ParentName": "Scaffold",
+    "id": 9
+  },
+  {
+    "Value": 0.0,
+    "Name": "Backup",
+    "ParentName": "Scaffold",
+    "id": 8
+  },
+  {
+    "Boolean": false,
+    "Name": "AdStrafe",
+    "ParentName": "Scaffold",
+    "id": 13
+  },
+  {
+    "Boolean": true,
+    "Name": "AdStrafeLegit",
+    "ParentName": "Scaffold",
+    "id": 19
+  },
+  {
+    "Boolean": false,
+    "Name": "Sprint",
+    "ParentName": "Scaffold",
+    "id": 4
+  },
+  {
+    "Boolean": true,
+    "Name": "MoveFix",
+    "ParentName": "Scaffold",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "FlyTest",
+    "ParentName": "Scaffold",
+    "id": 42069
+  },
+  {
+    "Boolean": true,
+    "Name": "SpamClick",
+    "ParentName": "Scaffold",
+    "id": 20
+  },
+  {
+    "Value": 0.0,
+    "Name": "ClickDelay",
+    "ParentName": "Scaffold",
+    "id": 22
+  },
+  {
+    "Boolean": true,
+    "Name": "IntaveHit",
+    "ParentName": "Scaffold",
+    "id": 23
+  },
+  {
+    "Boolean": true,
+    "Name": "Rotate",
+    "ParentName": "Scaffold",
+    "id": 10
+  },
+  {
+    "Boolean": false,
+    "Name": "CorrectSide",
+    "ParentName": "Scaffold",
+    "id": 12
+  },
+  {
+    "Boolean": false,
+    "Name": "SameY",
+    "ParentName": "Scaffold",
+    "id": 18
+  },
+  {
+    "Boolean": false,
+    "Name": "AutoJump",
+    "ParentName": "Scaffold",
+    "id": 18
+  },
+  {
+    "Boolean": false,
+    "Name": "ESP",
+    "ParentName": "Scaffold",
+    "id": 26
+  },
+  {
+    "SelectedOption": "None",
+    "Name": "TowerMode",
+    "ParentName": "Scaffold",
+    "id": 1234
+  },
+  {
+    "Boolean": true,
+    "Name": "TowerMove",
+    "ParentName": "Scaffold",
+    "id": 25
+  },
+  {
+    "Boolean": false,
+    "Name": "NoSwing",
+    "ParentName": "Scaffold",
+    "id": 25
+  },
+  {
+    "Boolean": false,
+    "Name": "SafeWalk",
+    "ParentName": "Scaffold",
+    "id": 7622
+  },
+  {
+    "Boolean": false,
+    "Name": "StartSneak",
+    "ParentName": "Scaffold",
+    "id": 29
+  },
+  {
+    "Boolean": false,
+    "Name": "Sneak",
+    "ParentName": "Scaffold",
+    "id": 13
+  },
+  {
+    "Boolean": false,
+    "Name": "SneakOnPlace",
+    "ParentName": "Scaffold",
+    "id": 17
+  },
+  {
+    "Value": 3.0,
+    "Name": "SneakTicks",
+    "ParentName": "Scaffold",
+    "id": 27
+  },
+  {
+    "Value": 1.0,
+    "Name": "SneakBlocksF",
+    "ParentName": "Scaffold",
+    "id": 28
+  },
+  {
+    "Value": 1.0,
+    "Name": "SneakBlocksD",
+    "ParentName": "Scaffold",
+    "id": 31
+  },
+  {
+    "Boolean": false,
+    "Name": "SneakDelay",
+    "ParentName": "Scaffold",
+    "id": 30
+  },
+  {
+    "Value": 1000.0,
+    "Name": "SneakDelay",
+    "ParentName": "Scaffold",
+    "id": 16
+  },
+  {
+    "Value": 1.0,
+    "Name": "Timer",
+    "ParentName": "Scaffold",
+    "id": 15
+  },
+  {
+    "SelectedOption": "Spoof",
+    "Name": "SilentMode",
+    "ParentName": "Scaffold",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "Scaffold",
+    "id": 123
+  },
+  {
+    "SelectedOption": "RickRoll",
+    "Name": "EnumValue",
+    "ParentName": "Spammer",
+    "id": 1837699
+  },
+  {
+    "Value": 3.0,
+    "Name": "Delay",
+    "ParentName": "Spammer",
+    "id": 298637
+  },
+  {
+    "Boolean": false,
+    "Name": "Bipas",
+    "ParentName": "Spammer",
+    "id": 9382
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "Spammer",
+    "id": 123
+  },
+  {
+    "Boolean": false,
+    "Name": "AutoUnfriend",
+    "ParentName": "MidClick",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "PingSpoof",
+    "ParentName": "Disabler",
+    "id": 0
+  },
+  {
+    "Boolean": false,
+    "Name": "RoyalPixels",
+    "ParentName": "Disabler",
+    "id": 8
+  },
+  {
+    "Boolean": false,
+    "Name": "MinemenStrafe",
+    "ParentName": "Disabler",
+    "id": 9
+  },
+  {
+    "Boolean": false,
+    "Name": "UniversoCraft",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "Spectate",
+    "ParentName": "Disabler",
+    "id": 0
+  },
+  {
+    "Boolean": false,
+    "Name": "C00PacketKeepAlive",
+    "ParentName": "Disabler",
+    "id": 2
+  },
+  {
+    "Boolean": false,
+    "Name": "C01PacketPing",
+    "ParentName": "Disabler",
+    "id": 3
+  },
+  {
+    "Boolean": false,
+    "Name": "C0BPacketEntityAction",
+    "ParentName": "Disabler",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "C13PacketPlayerAbilities",
+    "ParentName": "Disabler",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "C0FPacketConfirmTransaction",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "NCPTimerSemi",
+    "ParentName": "Disabler",
+    "id": 132
+  },
+  {
+    "Boolean": true,
+    "Name": "HAC",
+    "ParentName": "Disabler",
+    "id": 696969
+  },
+  {
+    "Boolean": true,
+    "Name": "NoSprint",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "BLC-Spoof",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "AAC5",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "NoFlag",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": true,
+    "Name": "FrequencyFull",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "GrimFull",
+    "ParentName": "Disabler",
+    "id": 7
+  },
+  {
+    "Boolean": false,
+    "Name": "Debug",
+    "ParentName": "Disabler",
+    "id": 1536
+  },
+  {
+    "Value": 1000.0,
+    "Name": "Delay",
+    "ParentName": "Disabler",
+    "id": 1
+  },
+  {
+    "Boolean": false,
+    "Name": "DisableOnWorld",
+    "ParentName": "Disabler",
+    "id": 123
+  },
+  {
+    "Boolean": true,
+    "Name": "CancelSound",
+    "ParentName": "AutoPlay",
+    "id": 1
+  },
+  {
+    "SelectedOption": "MinemenRanked",
+    "Name": "Mode",
+    "ParentName": "AutoPlay",
+    "id": 2
+  },
+  {
+    "SelectedOption": "Sumo",
+    "Name": "Gamemode",
+    "ParentName": "AutoPlay",
+    "id": 3
+  },
+  {
+    "SelectedOption": "Random",
+    "Name": "Mode",
+    "ParentName": "AntiAim",
+    "id": 613473
+  },
+  {
+    "Boolean": true,
+    "Name": "MoveFix",
+    "ParentName": "AntiAim",
+    "id": 1
+  },
+  {
+    "Value": 345.0,
+    "Name": "Speed",
+    "ParentName": "AntiAim",
+    "id": 51644
+  },
+  {
+    "Boolean": true,
+    "Name": "Click",
+    "ParentName": "AntiAim",
+    "id": 3
+  },
+  {
+    "Boolean": true,
+    "Name": "Chest",
+    "ParentName": "AntiAim",
+    "id": 4
+  },
+  {
+    "Boolean": false,
+    "Name": "Crafter",
+    "ParentName": "AntiAim",
+    "id": 5
+  },
+  {
+    "Boolean": false,
+    "Name": "Furnace",
+    "ParentName": "AntiAim",
+    "id": 6
+  },
+  {
+    "Name": "StopOn",
+    "ParentName": "AntiAim",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "MouseDelayFix",
+    "ParentName": "Fixes",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "HitDelayFix",
+    "ParentName": "Fixes",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "MemoryFix",
+    "ParentName": "Fixes",
+    "id": 2
+  },
+  {
+    "Boolean": true,
+    "Name": "IsInRound",
+    "ParentName": "StaffDetector",
+    "id": 1
+  },
+  {
+    "Boolean": true,
+    "Name": "Blur",
+    "ParentName": "Shaders",
+    "id": 123
+  },
+  {
+    "Value": 3.0,
+    "Name": "Blur Iterations",
+    "ParentName": "Shaders",
+    "id": 13612
+  },
+  {
+    "Value": 4.0,
+    "Name": "Blur Offset",
+    "ParentName": "Shaders",
+    "id": 136
+  },
+  {
+    "Boolean": false,
+    "Name": "Bloom",
+    "ParentName": "Shaders",
+    "id": 123
+  },
+  {
+    "Value": 3.0,
+    "Name": "Bloom Iterations",
+    "ParentName": "Shaders",
+    "id": 135627
+  },
+  {
+    "Value": 1.0,
+    "Name": "Bloom Offset",
+    "ParentName": "Shaders",
+    "id": 16731
+  }
+]

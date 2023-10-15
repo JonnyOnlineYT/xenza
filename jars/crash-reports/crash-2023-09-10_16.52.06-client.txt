@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 10.09.23 16:52
+Description: Unexpected error
+
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at net.augustus.modules.combat.KillAura.findTarget(KillAura.java:1236)
+	at net.augustus.modules.combat.TimerRange.getExtraTicks(TimerRange.java:68)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:882)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:350)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at net.augustus.modules.combat.KillAura.findTarget(KillAura.java:1236)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 2 total; [EntityPlayerSP['JonnyOnlineYT'/8823, l='MpServer', x=-77,51, y=71,00, z=-50,41], EntityOtherPlayerMP['AfricanElmo'/6115, l='MpServer', x=-73,72, y=72,00, z=-47,97]]
+	Chunk stats: MultiplayerChunkCache: 441, 441
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: -40,00,64,00,36,00 - World: (-40,64,36), Chunk: (at 8,4,4 in -3,2; contains blocks -48,0,32 to -33,255,47), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 445214 game time, 563959 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 34 total; [EntityCreeper['Creeper'/25987, l='MpServer', x=-63,50, y=11,00, z=-51,50], EntityCreeper['Creeper'/25988, l='MpServer', x=-66,50, y=11,00, z=-49,50], EntityRabbit['Rabbit'/3205, l='MpServer', x=-58,44, y=71,00, z=-24,66], EntityCow['Cow'/3206, l='MpServer', x=-35,94, y=64,00, z=-30,97], EntityCow['Cow'/3207, l='MpServer', x=-72,22, y=71,00, z=-26,69], EntityCow['Cow'/3208, l='MpServer', x=-58,91, y=69,00, z=-12,19], EntitySkeleton['Skeleton'/26132, l='MpServer', x=-97,50, y=40,00, z=-9,16], EntitySheep['Sheep'/2453, l='MpServer', x=-61,74, y=72,00, z=-44,27], EntitySheep['Sheep'/2454, l='MpServer', x=-61,34, y=70,00, z=-52,88], EntitySheep['Sheep'/2455, l='MpServer', x=-41,56, y=65,50, z=-35,82], EntityChicken['Chicken'/24, l='MpServer', x=-63,66, y=71,00, z=-24,38], EntityCreeper['Creeper'/26137, l='MpServer', x=-61,40, y=12,00, z=-82,73], EntityZombie['Marcel'/25499, l='MpServer', x=-84,50, y=32,00, z=-12,50], EntityCreeper['Creeper'/26141, l='MpServer', x=-98,50, y=34,00, z=-27,50], EntityZombie['Marcel'/26156, l='MpServer', x=-116,50, y=33,00, z=-64,50], EntitySpider['Spider'/25901, l='MpServer', x=-41,50, y=16,00, z=-33,50], EntitySkeleton['Skeleton'/25903, l='MpServer', x=-46,50, y=16,00, z=-33,50], EntitySkeleton['Skeleton'/25904, l='MpServer', x=-44,50, y=16,00, z=-34,50], EntityZombie['Marcel'/26034, l='MpServer', x=-49,50, y=34,00, z=-10,50], EntityZombie['Marcel'/25779, l='MpServer', x=-68,50, y=30,00, z=-29,50], EntityOtherPlayerMP['AfricanElmo'/6115, l='MpServer', x=-73,72, y=72,00, z=-47,97], EntityZombie['Marcel'/26171, l='MpServer', x=-117,16, y=66,00, z=-29,75], EntityCreeper['Creeper'/26051, l='MpServer', x=-64,13, y=13,00, z=-22,57], EntityCreeper['Creeper'/25799, l='MpServer', x=-55,50, y=37,00, z=-13,50], EntityEnderman['Enderman'/26183, l='MpServer', x=-71,50, y=17,00, z=-69,50], EntityZombie['Marcel'/26068, l='MpServer', x=-75,50, y=40,00, z=-51,50], EntityZombie['Marcel'/25435, l='MpServer', x=-89,50, y=19,00, z=-8,50], EntityHorse['Horse'/3420, l='MpServer', x=-69,09, y=64,00, z=-100,06], EntityOtherPlayerMP['AfricanElmo'/6115, l='MpServer', x=-73,72, y=72,00, z=-47,97], EntityPlayerSP['JonnyOnlineYT'/8823, l='MpServer', x=-77,51, y=71,00, z=-50,41], EntityOtherPlayerMP['AfricanElmo'/6115, l='MpServer', x=-43,72, y=66,00, z=12,16], EntitySkeleton['Skeleton'/26095, l='MpServer', x=-79,50, y=36,00, z=-25,50], EntityZombie['Marcel'/25717, l='MpServer', x=-63,50, y=17,00, z=-48,50], EntityZombie['Marcel'/25726, l='MpServer', x=-43,25, y=49,41, z=-14,34]]
+	Retry entities: 0 total; []
+	Server brand: PaperSpigot
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:303)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2203)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:367)
+	at net.minecraft.client.main.Main.main(Main.java:104)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 6.4.12-zen1-1-zen
+	CPU: <unknown>
+	Java Version: 1.8.0_382, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 7218605752 bytes (6884 MB) / 8486649856 bytes (8093 MB) up to 8486649856 bytes (8093 MB)
+	JVM Flags: 3 total; -Xmx8G -Xms8G -Xss1G
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics 620 (KBL GT2) GL version 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: Koks Purple
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: <unknown>
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 6
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 23.1.6-arch1.4
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8
