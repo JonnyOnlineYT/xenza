@@ -43,8 +43,6 @@ public class Disabler extends Module {
    public BooleanValue blcSpoof = new BooleanValue(7, "BLC-Spoof", this, false);
    public BooleanValue aac5 = new BooleanValue(7, "AAC5", this, false);
    public BooleanValue antiVanillaEumel = new BooleanValue(7, "NoFlag", this, false);
-   public BooleanValue frequencyFull = new BooleanValue(7, "FrequencyFull", this, false);
-   public BooleanValue grimfake = new BooleanValue(7, "GrimFull", this, false);
    public BooleanValue debug = new BooleanValue(1536, "Debug", this, false);
 
    public DoubleValue delay = new DoubleValue(1, "Delay", this, 1000.0, 1.0, 4000.0, 0);
@@ -85,23 +83,6 @@ public class Disabler extends Module {
          if(mc.thePlayer.ticksExisted % 10 == 0) {
             mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C06PacketPlayerPosLook(mc.thePlayer.posX, mc.thePlayer.posY - 11, mc.thePlayer.posZ, mc.thePlayer.cameraYaw, mc.thePlayer.cameraPitch, true));
          }
-      }
-      if (grimfake.getBoolean()) {
-         /*
-         if(mc.thePlayer.ticksExisted % 8 == 0) {
-            if(debug.getBoolean()) {
-               PlayerUtil.sendChat("not sex");
-            }
-            mc.thePlayer.sendQueue.addToSendQueue(new C03PacketPlayer.C06PacketPlayerPosLook(mc.thePlayer.posX, 69420.0D, mc.thePlayer.posZ, mc.thePlayer.cameraYaw, mc.thePlayer.cameraPitch, true));
-         }
-         if(mc.thePlayer.ticksExisted % 6 == 0) {
-            if(debug.getBoolean()) {
-               PlayerUtil.sendChat("agressive bipas attempt");
-            }
-         }
-          */
-         PlayerUtil.sendChat("Disabler has been toggled due to the grim disabler only being available in the dev version");
-         setToggled(false);
       }
       if (aac5.getBoolean()) {
          if (!mc.isIntegratedServerRunning()) {
@@ -200,14 +181,6 @@ public class Disabler extends Module {
    }
    @EventTarget
    public void onRecv(EventReadPacket event) {
-      if(frequencyFull.getBoolean()) {
-         if(event.getPacket() instanceof S02PacketChat) {
-            if(((S02PacketChat) event.getPacket()).getChatComponent().getUnformattedText().contains("Frequency")) {
-               // dont cancel me for this. it was just to prank a friend, okay
-               event.setCanceled(true);
-            }
-         }
-      }
       if(antiVanillaEumel.getBoolean()) {
          if (event.getPacket() instanceof S08PacketPlayerPosLook && mc.thePlayer.ticksExisted > 20) {
             //PlayerUtil.sendChat("Sexed: " + mc.thePlayer.ticksExisted);

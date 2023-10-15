@@ -2973,18 +2973,6 @@
     "id": 7
   },
   {
-    "Boolean": true,
-    "Name": "FrequencyFull",
-    "ParentName": "Disabler",
-    "id": 7
-  },
-  {
-    "Boolean": false,
-    "Name": "GrimFull",
-    "ParentName": "Disabler",
-    "id": 7
-  },
-  {
     "Boolean": false,
     "Name": "Debug",
     "ParentName": "Disabler",

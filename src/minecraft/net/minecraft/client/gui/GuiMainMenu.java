@@ -44,14 +44,7 @@ public class GuiMainMenu
       ScaledResolution sr = new ScaledResolution(this.mc);
       final HashMap<String, ChangeLogType> changes = new HashMap();
       Gui.drawRect(0, 0, sr.getScaledWidth(), sr.getScaledHeight(), new Color(25, 25, 25).getRGB());
-      changes.put("+ Motiongraph", ChangeLogType.ADD);
-      changes.put("+ More checks to stop people from selling the client", ChangeLogType.ADD);
-      changes.put("+ Packet Fly (prob broken)", ChangeLogType.ADD);
-      changes.put("+ \"AAC\" Tower mode", ChangeLogType.ADD);
-      changes.put("~ Renamed VOnGround to Vanilla", ChangeLogType.FIX);
-      changes.put("~ Fixed ACR Nofall", ChangeLogType.FIX);
-      changes.put("~ Renamed VBhop to VanillaHop", ChangeLogType.FIX);
-      changes.put("~ Changed how Height works on VanillaHop", ChangeLogType.FIX);
+      //changes.put("+ Motiongraph", ChangeLogType.ADD);
 
       if (sr.getScaledWidth() > 600 && sr.getScaledHeight() > 300) {
          Color color = new Color(200, 200, 200, 150);
