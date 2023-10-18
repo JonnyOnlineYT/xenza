@@ -1,6 +1,6 @@
 [
   {
-    "SelectedOption": "Intave",
+    "SelectedOption": "IntaveTest",
     "Name": "Mode",
     "ParentName": "Velocity",
     "id": 1
@@ -18,13 +18,13 @@
     "id": 3
   },
   {
-    "Value": -1.0,
+    "Value": 0.6,
     "Name": "XZVelocity",
     "ParentName": "Velocity",
     "id": 5
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "Jump",
     "ParentName": "Velocity",
     "id": 7
@@ -90,7 +90,7 @@
     "id": 11
   },
   {
-    "Value": 4.0,
+    "Value": 3.2,
     "Name": "PreAimRange",
     "ParentName": "KillAura",
     "id": 1
@@ -108,25 +108,25 @@
     "id": 3
   },
   {
-    "Value": 180.0,
+    "Value": 124.0,
     "Name": "YawSpeedMin",
     "ParentName": "KillAura",
     "id": 64
   },
   {
-    "Value": 180.0,
+    "Value": 146.0,
     "Name": "YawSpeedMax",
     "ParentName": "KillAura",
     "id": 4
   },
   {
-    "Value": 180.0,
+    "Value": 132.0,
     "Name": "PitchSpeedMin",
     "ParentName": "KillAura",
     "id": 65
   },
   {
-    "Value": 180.0,
+    "Value": 152.0,
     "Name": "PitchSpeedMax",
     "ParentName": "KillAura",
     "id": 5
@@ -162,7 +162,7 @@
     "id": 7
   },
   {
-    "Value": 0.9,
+    "Value": 0.18,
     "Name": "RStrength",
     "ParentName": "KillAura",
     "id": 8
@@ -228,7 +228,7 @@
     "id": 90
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "PHIntave",
     "ParentName": "KillAura",
     "id": 90
@@ -264,7 +264,7 @@
     "id": 21
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "SlowDown",
     "ParentName": "KillAura",
     "id": 23
@@ -306,7 +306,7 @@
     "id": 1337
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "Heuristics",
     "ParentName": "KillAura",
     "id": 46
@@ -377,7 +377,7 @@
     "id": 30
   },
   {
-    "SelectedOption": "None",
+    "SelectedOption": "Intave",
     "Name": "BlockMode",
     "ParentName": "KillAura",
     "id": 29
@@ -443,13 +443,13 @@
     "id": 1
   },
   {
-    "Value": 10.0,
+    "Value": 5.88,
     "Name": "MaxHitRange",
     "ParentName": "BackTrack",
     "id": 6
   },
   {
-    "Value": 50000.0,
+    "Value": 555.0,
     "Name": "Time",
     "ParentName": "BackTrack",
     "id": 7
@@ -663,7 +663,7 @@
     "id": 9284
   },
   {
-    "Value": 20.0,
+    "Value": 2.0,
     "Name": "Ticks",
     "ParentName": "TickBase",
     "id": 2385
@@ -744,7 +744,7 @@
     "id": 1
   },
   {
-    "SelectedOption": "New",
+    "SelectedOption": "Vega",
     "Name": "Mode",
     "ParentName": "ArrayList",
     "id": 23638
@@ -792,7 +792,7 @@
     "id": 13
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "Backgound",
     "ParentName": "ArrayList",
     "id": 6
@@ -807,9 +807,9 @@
     "id": 7
   },
   {
-    "Red": 0,
-    "Green": 0,
-    "Blue": 0,
+    "Red": 1,
+    "Green": 10,
+    "Blue": 255,
     "Alpha": 255,
     "Name": "VegaColor2",
     "ParentName": "ArrayList",
@@ -1029,7 +1029,7 @@
     "id": 27
   },
   {
-    "SelectedOption": "Fake2D",
+    "SelectedOption": "Vanilla",
     "Name": "Mode",
     "ParentName": "ESP",
     "id": 7
@@ -1053,19 +1053,19 @@
     "id": 9
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "Rainbow",
     "ParentName": "ESP",
     "id": 11
   },
   {
-    "Value": 1000.0,
+    "Value": 400.0,
     "Name": "RainbowSpeed",
     "ParentName": "ESP",
     "id": 12
   },
   {
-    "Value": 80.0,
+    "Value": 0.0,
     "Name": "RainbowAlpha",
     "ParentName": "ESP",
     "id": 13
@@ -1160,13 +1160,13 @@
     "id": 13
   },
   {
-    "Value": 6.0,
+    "Value": 0.0,
     "Name": "LineWidth",
     "ParentName": "StorageESP",
     "id": 1
   },
   {
-    "Value": 6.0,
+    "Value": 5.0,
     "Name": "MaxDistance",
     "ParentName": "StorageESP",
     "id": 4
@@ -1190,7 +1190,7 @@
     "id": 3
   },
   {
-    "Value": 0.6,
+    "Value": 0.5,
     "Name": "Speed",
     "ParentName": "BlockAnimation",
     "id": 4
@@ -1202,7 +1202,7 @@
     "id": 1
   },
   {
-    "SelectedOption": "Custom",
+    "SelectedOption": "Interpolation",
     "Name": "Mode",
     "ParentName": "NameTags",
     "id": 1
@@ -1253,7 +1253,7 @@
     "id": 1
   },
   {
-    "SelectedOption": "Old",
+    "SelectedOption": "Basic",
     "Name": "Mode",
     "ParentName": "HUD",
     "id": 4
@@ -1738,13 +1738,13 @@
     "id": 16
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "Slowdown",
     "ParentName": "NoSlow",
     "id": 1
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "Sprint",
     "ParentName": "NoSlow",
     "id": 2
@@ -1756,7 +1756,7 @@
     "id": 3
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "Toggle",
     "ParentName": "NoSlow",
     "id": 4
@@ -1810,7 +1810,7 @@
     "id": 11
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "Sprint",
     "ParentName": "NoSlow",
     "id": 12
@@ -1828,7 +1828,7 @@
     "id": 14
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "Bug",
     "ParentName": "NoSlow",
     "id": 1111
@@ -1909,13 +1909,13 @@
     "id": 24
   },
   {
-    "SelectedOption": "LegitHop",
+    "SelectedOption": "IntaveStrafe",
     "Name": "Mode",
     "ParentName": "Speed",
     "id": 1
   },
   {
-    "Value": 3.0,
+    "Value": 1.0,
     "Name": "Speed",
     "ParentName": "Speed",
     "id": 2
@@ -1945,7 +1945,7 @@
     "id": 6
   },
   {
-    "Value": 1.31,
+    "Value": 0.1,
     "Name": "Time",
     "ParentName": "Timer",
     "id": 1
@@ -2032,7 +2032,7 @@
     "id": 1337
   },
   {
-    "SelectedOption": "FurtherTeleport",
+    "SelectedOption": "Motion",
     "Name": "Mode",
     "ParentName": "Fly",
     "id": 1
@@ -2050,7 +2050,7 @@
     "id": 5
   },
   {
-    "Value": 0.2,
+    "Value": 3.3,
     "Name": "Speed",
     "ParentName": "Fly",
     "id": 3
@@ -2242,13 +2242,13 @@
     "id": 8
   },
   {
-    "SelectedOption": "SpoofInv",
+    "SelectedOption": "OpenInv",
     "Name": "Mode",
     "ParentName": "AutoArmor",
     "id": 1
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "NoMove",
     "ParentName": "AutoArmor",
     "id": 8
@@ -2260,13 +2260,13 @@
     "id": 9
   },
   {
-    "Value": 44.0,
+    "Value": 100.0,
     "Name": "StartDelay",
     "ParentName": "AutoArmor",
     "id": 2
   },
   {
-    "Value": 44.0,
+    "Value": 11.0,
     "Name": "Delay",
     "ParentName": "AutoArmor",
     "id": 3
@@ -2302,13 +2302,13 @@
     "id": 123
   },
   {
-    "SelectedOption": "SpoofInv",
+    "SelectedOption": "OpenInv",
     "Name": "Mode",
     "ParentName": "InvCleaner",
     "id": 1
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "NoMove",
     "ParentName": "InvCleaner",
     "id": 5
@@ -2320,13 +2320,13 @@
     "id": 6
   },
   {
-    "Value": 22.0,
+    "Value": 11.0,
     "Name": "Delay",
     "ParentName": "InvCleaner",
     "id": 2
   },
   {
-    "Value": 11.0,
+    "Value": 100.0,
     "Name": "StartDelay",
     "ParentName": "InvCleaner",
     "id": 3
@@ -2385,13 +2385,13 @@
     "id": 123
   },
   {
-    "Value": 55.0,
+    "Value": 200.0,
     "Name": "StartDelay",
     "ParentName": "ChestStealer",
     "id": 1
   },
   {
-    "Value": 22.0,
+    "Value": 4.0,
     "Name": "Delay",
     "ParentName": "ChestStealer",
     "id": 2
@@ -2607,7 +2607,7 @@
     "id": 136
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "Snap",
     "ParentName": "Scaffold",
     "id": 52789782
@@ -2631,19 +2631,19 @@
     "id": 6
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "PlayerYaw",
     "ParentName": "Scaffold",
     "id": 9
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "BlockSafe",
     "ParentName": "Scaffold",
     "id": 25
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "MoonWalk",
     "ParentName": "Scaffold",
     "id": 21
@@ -2673,7 +2673,7 @@
     "id": 9
   },
   {
-    "Value": 0.0,
+    "Value": 3.0,
     "Name": "Backup",
     "ParentName": "Scaffold",
     "id": 8
@@ -2799,7 +2799,7 @@
     "id": 17
   },
   {
-    "Value": 3.0,
+    "Value": 5.0,
     "Name": "SneakTicks",
     "ParentName": "Scaffold",
     "id": 27
@@ -2847,19 +2847,19 @@
     "id": 123
   },
   {
-    "SelectedOption": "RickRoll",
+    "SelectedOption": "Custom",
     "Name": "EnumValue",
     "ParentName": "Spammer",
     "id": 1837699
   },
   {
-    "Value": 3.0,
+    "Value": 5.0,
     "Name": "Delay",
     "ParentName": "Spammer",
     "id": 298637
   },
   {
-    "Boolean": false,
+    "Boolean": true,
     "Name": "Bipas",
     "ParentName": "Spammer",
     "id": 9382
@@ -3009,19 +3009,19 @@
     "id": 3
   },
   {
-    "SelectedOption": "Random",
+    "SelectedOption": "Spin",
     "Name": "Mode",
     "ParentName": "AntiAim",
     "id": 613473
   },
   {
-    "Boolean": true,
+    "Boolean": false,
     "Name": "MoveFix",
     "ParentName": "AntiAim",
     "id": 1
   },
   {
-    "Value": 345.0,
+    "Value": 84.0,
     "Name": "Speed",
     "ParentName": "AntiAim",
     "id": 51644

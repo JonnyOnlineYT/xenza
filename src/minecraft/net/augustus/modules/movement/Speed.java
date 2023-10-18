@@ -24,7 +24,7 @@ import net.minecraft.util.MathHelper;
 
 public class Speed extends Module {
    public StringValue mode = new StringValue(
-      1, "Mode", this, "GroundStrafe", new String[]{"Vanilla", "VanillaHop", "LegitHop", "LegitAbuse", "Matrix", "TeleportAbuse", "NCP", "Test", "Verus", "NoCheatMinus", "GamerCheatOG", "GamerCheatBHop", "CheatmineSafe", "CheatmineRage", "NCPRace", "NCPWtf", "NCPLow", "GroundStrafe", "Strafe", "FixedStrafe"}
+      1, "Mode", this, "GroundStrafe", new String[]{"Vanilla", "VanillaHop", "LegitHop", "LegitAbuse", "Matrix", "TeleportAbuse", "NCP", "Test", "Verus", "NoCheatMinus", "GamerCheatOG", "GamerCheatBHop", "CheatmineSafe", "CheatmineRage", "NCPRace", "NCPWtf", "NCPLow", "GroundStrafe", "Strafe", "FixedStrafe", "IntaveStrafe"}
    );
    public DoubleValue vanillaSpeed = new DoubleValue(2, "Speed", this, 1.0, 0.0, 10.0, 2);
    public DoubleValue vanillaHeight = new DoubleValue(3, "Height", this, 0.2, 0.01, 0.42, 2);
@@ -50,6 +50,8 @@ public class Speed extends Module {
    private double lastDist;
    private int offGround;
    private int motionDelay;
+   private boolean groundBoost = false;
+   private int groundTicks = 0;
 
    public Speed() {
       super("Speed", new Color(74, 133, 93), Categorys.MOVEMENT);
@@ -91,6 +93,8 @@ public class Speed extends Module {
       this.tickCounter2 = -2;
       this.tickCounter = 0;
    }
+   @EventTarget
+   public void onSend(EventSendPacket eventSendPacket) {}
    @EventTarget
    public void onRecv(EventReadPacket e) {
       if(e.getPacket() instanceof S08PacketPlayerPosLook) {
@@ -193,6 +197,17 @@ public class Speed extends Module {
             break;
          case "Test":
             test();
+            break;
+         case "IntaveStrafe":
+            iacStrafe();
+            break;
+      }
+   }
+
+   private void iacStrafe() {
+      mc.gameSettings.keyBindJump.pressed = true;
+      if (this.offGround >= 10 && this.offGround % 5 == 0) {
+         MoveUtil.strafe();
       }
    }
 

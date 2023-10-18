@@ -1,7 +1,7 @@
 {
   "name": "mogelmiene",
-  "date": "14.10.2023",
-  "time": "21:20",
+  "date": "15.10.2023",
+  "time": "16:36",
   "modules": [
     {
       "Name": "BlockAnimation",
@@ -432,7 +432,7 @@
     {
       "Name": "Timer",
       "Toggled": false,
-      "Key": 33,
+      "Key": 34,
       "Category": "MOVEMENT"
     },
     {
@@ -450,7 +450,7 @@
     {
       "Name": "Blink",
       "Toggled": false,
-      "Key": 33,
+      "Key": 0,
       "Category": "MOVEMENT"
     },
     {
@@ -730,7 +730,7 @@
       "Green": 0,
       "Blue": 0,
       "Alpha": 0,
-      "Value": 3.2,
+      "Value": 3.0,
       "MinValue": 3.0,
       "MaxValue": 6.0,
       "DecimalPlaces": 2,
@@ -7529,34 +7529,6 @@
       "MaxValue": 0.0,
       "DecimalPlaces": 0,
       "Name": "NoFlag",
-      "ParentName": "Disabler",
-      "id": 7
-    },
-    {
-      "Boolean": true,
-      "Red": 0,
-      "Green": 0,
-      "Blue": 0,
-      "Alpha": 0,
-      "Value": 0.0,
-      "MinValue": 0.0,
-      "MaxValue": 0.0,
-      "DecimalPlaces": 0,
-      "Name": "FrequencyFull",
-      "ParentName": "Disabler",
-      "id": 7
-    },
-    {
-      "Boolean": false,
-      "Red": 0,
-      "Green": 0,
-      "Blue": 0,
-      "Alpha": 0,
-      "Value": 0.0,
-      "MinValue": 0.0,
-      "MaxValue": 0.0,
-      "DecimalPlaces": 0,
-      "Name": "GrimFull",
       "ParentName": "Disabler",
       "id": 7
     },

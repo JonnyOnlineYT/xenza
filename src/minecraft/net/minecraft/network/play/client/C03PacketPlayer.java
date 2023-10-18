@@ -181,5 +181,9 @@ public class C03PacketPlayer implements Packet<INetHandlerPlayServer> {
          buf.writeFloat(this.pitch);
          super.writePacketData(buf);
       }
+
+       public void setYaw(float v) {
+         this.yaw = v;
+       }
    }
 }
